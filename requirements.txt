@@ -1,0 +1,33 @@
+# Exact versions used to generate the published figures.
+#
+# pyproject.toml carries the loose dependency floors for ordinary installs;
+# this file is the reproducibility pin. Regenerate it from an activated
+# environment with:
+#
+#     uv pip freeze > requirements.txt
+#
+# Install with:
+#
+#     uv venv edu --python 3.12
+#     source edu/bin/activate
+#     uv pip install -r requirements.txt
+
+# Python 3.12.3
+
+# --- figures and data analysis ---
+pandas==3.0.2
+numpy==2.4.4
+matplotlib==3.10.8
+
+# --- LLM qualitative coding pipeline (optional) ---
+# Uncomment to re-run run_llm_coding.py / adjudicate_llm.py. Version pins are
+# deliberately omitted: provider SDKs move fast, and the coding results are
+# reproduced from the archived JSONL caches rather than by re-running the APIs.
+# python-dotenv
+# anthropic
+# openai
+# google-genai
+
+# --- legacy Excel support (optional) ---
+# Only needed to read the superseded .xlsx versions of the data files.
+# openpyxl

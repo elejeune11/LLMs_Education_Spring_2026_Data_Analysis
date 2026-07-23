@@ -1,0 +1,15 @@
+% Drafted by report_stats.py -- verify all numbers and edit wording before use.
+Each free-text response was coded independently by three large language models
+(anthropic: claude-sonnet-5; gemini: gemini-3.5-flash; openai: gpt-5.5) against the study codebooks, with structured JSON
+output validated for code validity, tier cardinality, and exclusivity rules.
+Across 755 response-question pairs coded by all three models, the models
+assigned identical code sets to 65\% of responses, with a mean
+pairwise Jaccard similarity of 0.86. Treating each code as a binary
+apply/not-apply decision, the median Fleiss' $\kappa$ across the
+95 codes with mean prevalence $\geq$ 5\% was
+0.89 (IQR 0.78--0.94),
+and 95\% of these codes reached the conventional
+threshold for substantial agreement ($\kappa \geq .61$).
+Responses on which all three models produced identical code sets (445 of 756) were accepted directly; the remaining 311 were resolved by an adjudication call to a designated model that received the response, the codebook, and all three codings with rationales, and ruled strictly against the codebook. Inter-model agreement establishes the reliability of the machine
+coding, not its validity; [describe human validation here, or note it as a
+limitation].

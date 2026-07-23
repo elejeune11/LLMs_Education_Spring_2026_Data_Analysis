@@ -1,0 +1,9 @@
+column,question,n_items,mean_codes_per_response,identical_set_pct,mean_pairwise_jaccard,median_kappa_reportable,n_reportable_codes,pct_reportable_kappa_ge_061,jaccard_anthropic_vs_gemini,jaccard_anthropic_vs_openai,jaccard_gemini_vs_openai
+txt_ai_workflow_steps_pre,Workflow steps (pre),99,2.19,52.5,0.81,0.819,13,92.3,0.83,0.76,0.842
+txt_ai_workflow_steps_post,Workflow steps (post),99,2.64,38.4,0.758,0.789,16,93.8,0.738,0.758,0.778
+txt_ai_verify_correctness_pre,Verification behavior (pre),100,1.52,70.0,0.849,0.873,9,100.0,0.856,0.818,0.873
+txt_ai_verify_correctness_post,Verification behavior (post),99,1.56,67.7,0.839,0.883,10,90.0,0.826,0.815,0.877
+txt_ai_impact_describe_pre,Impact on learning (pre),100,1.83,70.0,0.897,0.906,13,92.3,0.894,0.895,0.903
+txt_ai_impact_describe_post,Impact on learning (post),99,2.0,70.7,0.907,0.895,11,90.9,0.919,0.882,0.921
+txt_ai_demo_feedback_post,Demo feedback (post),60,1.63,71.7,0.894,0.904,15,100.0,0.872,0.888,0.921
+txt_ai_use_change_post,Change in AI use (post),99,1.22,81.8,0.916,0.919,8,100.0,0.894,0.915,0.939

@@ -1,0 +1,16 @@
+Category,Code,Description
+No Substantive Change,No Substantive Change,"AI use has not meaningfully changed over the semester, or the reported change is minimal/vague. Apply when the student reports continuity, or a slight shift without substantive detail. Standalone."
+Frequency of Use,Increased Frequency,"Reported rise in how often AI is used, regardless of stated reason."
+Frequency of Use,Decreased Frequency,"Reported decline in how often AI is used, including stopping entirely after prior use. CO-CODE with UC12 when the student names a non-AI replacement resource, and with UC10 when the stated reason is distrust or discovered limitations."
+Frequency of Use,Context-Dependent Change,"Change in use that varies by subject, course, or problem difficulty rather than uniformly: more in some contexts, less in others."
+Manner of Use,Shift Toward Study & Concept Support,"Student's use has moved TOWARD learning-support tasks: studying, flashcards, concept review, or deepening comprehension. Direction rule: Manner of Use codes (UC05-UC07) describe the manner the student has adopted or increased, never a manner they report abandoning."
+Manner of Use,Shift Toward Solution & Output Generation,"Student's use has moved TOWARD output generation: writing code, solving problems, or generating text for deliverables. Same direction rule as UC05."
+Manner of Use,Shift Toward Verification & Checking,Shift toward using AI to check or validate the student's own work rather than to generate it. Apply only when the student indicates doing the work themselves first. Same direction rule as UC05.
+Manner of Use,Prompting Skill Improvement,"Improvement in how the student formulates queries or interacts with the tool: better prompting, providing more context, greater efficiency in getting useful responses."
+Stance & Self-Regulation,Limiting Reliance,"Deliberate moderation or restriction of AI to protect one's own learning: expressed concern about over-reliance, or intentionally limiting the task (e.g., withholding numbers) so the student still does the cognitive work."
+Stance & Self-Regulation,Increased Critical Scrutiny,"Growth in critical evaluation and awareness of AI limitations: questioning outputs, discovering poor performance in specific domains (e.g., trusses, diagrams), no longer trusting implicitly."
+Tool & Resource Selection,Tool / Model Selection,"Change in the AI tool, platform, or tier used: switching primary tools, using different models for different purposes, or changing subscription tiers."
+Tool & Resource Selection,Shift to Non-AI Resources,"Shift toward non-AI learning resources: instructors, office hours, TAs, textbooks, lecture notes, or videos in place of AI. Usually co-occurs with UC03."
+Other,Other / Unspecified Change,"A valid, CLEAR change in AI use that fits none of the themes above and is too idiosyncratic to warrant its own code. Describe the change in the notes field."
+Uncodable,Irrelevant / Noise,"Responses that are blank, nonsensical, or fail to address the prompt about changes in AI use in any capacity. Standalone."
+Not Applicable,Never Used AI,"Student states they do not use AI at all and have not during the semester, so the change question does not apply. Standalone."

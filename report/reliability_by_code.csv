@@ -1,0 +1,140 @@
+column,question,code_id,code,n_items,mean_prevalence,final_prevalence,fleiss_kappa,pct_agreement,reportable
+txt_ai_workflow_steps_pre,Workflow steps (pre),WF01,Self-Attempt First; Verify After,99,0.205,0.21,0.856,0.953,True
+txt_ai_workflow_steps_pre,Workflow steps (pre),WF02,Self-Attempt First; AI Help When Stuck,99,0.256,0.24,0.859,0.946,True
+txt_ai_workflow_steps_pre,Workflow steps (pre),WF03,AI-Guided Step-by-Step,99,0.081,0.07,0.728,0.96,True
+txt_ai_workflow_steps_pre,Workflow steps (pre),WF04,Iterative Refinement,99,0.017,0.01,0.593,0.987,False
+txt_ai_workflow_steps_pre,Workflow steps (pre),WF05,One-Shot Answer Generation,99,0.037,0.02,0.622,0.973,False
+txt_ai_workflow_steps_pre,Workflow steps (pre),WF06,Non-Use / No Attempt,99,0.162,0.16,1.0,1.0,True
+txt_ai_workflow_steps_pre,Workflow steps (pre),WF22,Targeted Single-Purpose Use,99,0.114,0.14,0.668,0.933,True
+txt_ai_workflow_steps_pre,Workflow steps (pre),WF07,Other Process Structure,99,0.013,0.01,-0.014,0.973,False
+txt_ai_workflow_steps_pre,Workflow steps (pre),WF08,Irrelevant / Noise,99,0.114,0.14,0.967,0.993,True
+txt_ai_workflow_steps_pre,Workflow steps (pre),WF09,Concept Explanation Request,99,0.128,0.12,0.819,0.96,True
+txt_ai_workflow_steps_pre,Workflow steps (pre),WF10,Procedure/Steps Request,99,0.31,0.28,0.732,0.886,True
+txt_ai_workflow_steps_pre,Workflow steps (pre),WF11,Procedural Memorization & Practice,99,0.047,0.04,0.925,0.993,False
+txt_ai_workflow_steps_pre,Workflow steps (pre),WF12,Guided Inquiry / Hints,99,0.135,0.1,0.682,0.926,True
+txt_ai_workflow_steps_pre,Workflow steps (pre),WF13,Answer/Result Verification,99,0.215,0.21,0.841,0.946,True
+txt_ai_workflow_steps_pre,Workflow steps (pre),WF14,Comparative Step-by-Step Verification,99,0.098,0.1,0.809,0.966,True
+txt_ai_workflow_steps_pre,Workflow steps (pre),WF15,Error Diagnosis / Troubleshooting,99,0.098,0.1,0.924,0.987,True
+txt_ai_workflow_steps_pre,Workflow steps (pre),WF17,Conditional / Context-Dependent Use,99,0.034,0.02,0.586,0.973,False
+txt_ai_workflow_steps_pre,Workflow steps (pre),WF18,Diagram / Visual Content Interpretation Issues,99,0.013,0.01,0.747,0.993,False
+txt_ai_workflow_steps_pre,Workflow steps (pre),WF19,Skepticism / Distrust of AI Outputs,99,0.037,0.04,0.906,0.993,False
+txt_ai_workflow_steps_pre,Workflow steps (pre),WF20,Prompt Specification & Constraint Setting,99,0.071,0.08,0.59,0.946,True
+txt_ai_workflow_steps_post,Workflow steps (post),WF01,Self-Attempt First; Verify After,99,0.148,0.162,0.787,0.946,True
+txt_ai_workflow_steps_post,Workflow steps (post),WF02,Self-Attempt First; AI Help When Stuck,99,0.202,0.202,0.791,0.933,True
+txt_ai_workflow_steps_post,Workflow steps (post),WF03,AI-Guided Step-by-Step,99,0.205,0.202,0.794,0.933,True
+txt_ai_workflow_steps_post,Workflow steps (post),WF04,Iterative Refinement,99,0.047,0.04,0.7,0.973,False
+txt_ai_workflow_steps_post,Workflow steps (post),WF05,One-Shot Answer Generation,99,0.04,0.04,0.566,0.966,False
+txt_ai_workflow_steps_post,Workflow steps (post),WF06,Non-Use / No Attempt,99,0.094,0.091,0.961,0.993,True
+txt_ai_workflow_steps_post,Workflow steps (post),WF22,Targeted Single-Purpose Use,99,0.189,0.182,0.758,0.926,True
+txt_ai_workflow_steps_post,Workflow steps (post),WF07,Other Process Structure,99,0.024,0.03,0.268,0.966,False
+txt_ai_workflow_steps_post,Workflow steps (post),WF08,Irrelevant / Noise,99,0.051,0.051,0.86,0.987,True
+txt_ai_workflow_steps_post,Workflow steps (post),WF09,Concept Explanation Request,99,0.306,0.283,0.842,0.933,True
+txt_ai_workflow_steps_post,Workflow steps (post),WF10,Procedure/Steps Request,99,0.374,0.364,0.727,0.872,True
+txt_ai_workflow_steps_post,Workflow steps (post),WF11,Procedural Memorization & Practice,99,0.024,0.02,0.854,0.993,False
+txt_ai_workflow_steps_post,Workflow steps (post),WF12,Guided Inquiry / Hints,99,0.081,0.061,0.637,0.946,True
+txt_ai_workflow_steps_post,Workflow steps (post),WF13,Answer/Result Verification,99,0.189,0.192,0.89,0.966,True
+txt_ai_workflow_steps_post,Workflow steps (post),WF14,Comparative Step-by-Step Verification,99,0.094,0.081,0.724,0.953,True
+txt_ai_workflow_steps_post,Workflow steps (post),WF15,Error Diagnosis / Troubleshooting,99,0.064,0.051,0.663,0.96,True
+txt_ai_workflow_steps_post,Workflow steps (post),WF16,Accuracy Verification Against External Sources,99,0.034,0.03,0.897,0.993,False
+txt_ai_workflow_steps_post,Workflow steps (post),WF17,Conditional / Context-Dependent Use,99,0.074,0.101,0.558,0.939,True
+txt_ai_workflow_steps_post,Workflow steps (post),WF18,Diagram / Visual Content Interpretation Issues,99,0.088,0.081,0.916,0.987,True
+txt_ai_workflow_steps_post,Workflow steps (post),WF19,Skepticism / Distrust of AI Outputs,99,0.111,0.111,0.83,0.966,True
+txt_ai_workflow_steps_post,Workflow steps (post),WF20,Prompt Specification & Constraint Setting,99,0.168,0.152,0.76,0.933,True
+txt_ai_workflow_steps_post,Workflow steps (post),WF21,Other / Idiosyncratic Step,99,0.03,0.04,0.771,0.987,False
+txt_ai_verify_correctness_pre,Verification behavior (pre),A1,Re-Solves to Verify AI,100,0.243,0.25,0.873,0.953,True
+txt_ai_verify_correctness_pre,Verification behavior (pre),A2,Traces AI's Steps,100,0.303,0.34,0.826,0.927,True
+txt_ai_verify_correctness_pre,Verification behavior (pre),A3,Plausibility / Sanity Check,100,0.173,0.13,0.698,0.913,True
+txt_ai_verify_correctness_pre,Verification behavior (pre),A4,Verifies Diagram / Problem Setup,100,0.03,0.03,1.0,1.0,False
+txt_ai_verify_correctness_pre,Verification behavior (pre),A5,"Solves First, Uses AI as Checker",100,0.06,0.06,0.764,0.973,True
+txt_ai_verify_correctness_pre,Verification behavior (pre),B1,Course Materials & Answer Keys,100,0.143,0.13,0.919,0.98,True
+txt_ai_verify_correctness_pre,Verification behavior (pre),B2,Instructor / TA Consultation,100,0.01,0.01,1.0,1.0,False
+txt_ai_verify_correctness_pre,Verification behavior (pre),B3,Peer Comparison,100,0.11,0.11,1.0,1.0,True
+txt_ai_verify_correctness_pre,Verification behavior (pre),B4,Cross-Checks Other AI Models,100,0.1,0.1,1.0,1.0,True
+txt_ai_verify_correctness_pre,Verification behavior (pre),B5,Online Search,100,0.07,0.08,0.898,0.987,True
+txt_ai_verify_correctness_pre,Verification behavior (pre),C1a,Direct Challenge / Error Flagging,100,0.02,0.02,1.0,1.0,False
+txt_ai_verify_correctness_pre,Verification behavior (pre),C1b,Requests Re-Check / Redo,100,0.003,0.0,-0.003,0.993,False
+txt_ai_verify_correctness_pre,Verification behavior (pre),C1c,Probing Follow-Ups,100,0.03,0.02,1.0,1.0,False
+txt_ai_verify_correctness_pre,Verification behavior (pre),C2,Verifies AI-Cited Sources,100,0.02,0.02,1.0,1.0,False
+txt_ai_verify_correctness_pre,Verification behavior (pre),D1,Minimal / Conditional Verification,100,0.043,0.05,0.598,0.967,False
+txt_ai_verify_correctness_pre,Verification behavior (pre),D2,No Verification,100,0.023,0.02,0.854,0.993,False
+txt_ai_verify_correctness_pre,Verification behavior (pre),E1,Does Not Use AI,100,0.03,0.03,1.0,1.0,False
+txt_ai_verify_correctness_pre,Verification behavior (pre),E2,Uncodable,100,0.107,0.09,0.825,0.967,True
+txt_ai_verify_correctness_post,Verification behavior (post),A1,Re-Solves to Verify AI,99,0.286,0.303,0.885,0.953,True
+txt_ai_verify_correctness_post,Verification behavior (post),A2,Traces AI's Steps,99,0.232,0.263,0.755,0.912,True
+txt_ai_verify_correctness_post,Verification behavior (post),A3,Plausibility / Sanity Check,99,0.081,0.051,0.501,0.926,True
+txt_ai_verify_correctness_post,Verification behavior (post),A4,Verifies Diagram / Problem Setup,99,0.081,0.071,0.864,0.98,True
+txt_ai_verify_correctness_post,Verification behavior (post),A5,"Solves First, Uses AI as Checker",99,0.047,0.04,0.85,0.987,False
+txt_ai_verify_correctness_post,Verification behavior (post),B1,Course Materials & Answer Keys,99,0.168,0.162,0.976,0.993,True
+txt_ai_verify_correctness_post,Verification behavior (post),B2,Instructor / TA Consultation,99,0.01,0.01,1.0,1.0,False
+txt_ai_verify_correctness_post,Verification behavior (post),B3,Peer Comparison,99,0.081,0.081,1.0,1.0,True
+txt_ai_verify_correctness_post,Verification behavior (post),B4,Cross-Checks Other AI Models,99,0.094,0.091,0.961,0.993,True
+txt_ai_verify_correctness_post,Verification behavior (post),B5,Online Search,99,0.138,0.141,0.972,0.993,True
+txt_ai_verify_correctness_post,Verification behavior (post),C1a,Direct Challenge / Error Flagging,99,0.03,0.02,0.771,0.987,False
+txt_ai_verify_correctness_post,Verification behavior (post),C1b,Requests Re-Check / Redo,99,0.034,0.03,0.897,0.993,False
+txt_ai_verify_correctness_post,Verification behavior (post),C1c,Probing Follow-Ups,99,0.047,0.061,0.775,0.98,False
+txt_ai_verify_correctness_post,Verification behavior (post),C2,Verifies AI-Cited Sources,99,0.007,0.01,0.497,0.993,False
+txt_ai_verify_correctness_post,Verification behavior (post),D1,Minimal / Conditional Verification,99,0.121,0.121,0.716,0.939,True
+txt_ai_verify_correctness_post,Verification behavior (post),D2,No Verification,99,0.013,0.01,0.747,0.993,False
+txt_ai_verify_correctness_post,Verification behavior (post),E1,Does Not Use AI,99,0.03,0.03,1.0,1.0,False
+txt_ai_verify_correctness_post,Verification behavior (post),E2,Uncodable,99,0.061,0.051,0.882,0.987,True
+txt_ai_impact_describe_pre,Impact on learning (pre),IM01,Positive Impact,100,0.473,0.47,0.933,0.967,True
+txt_ai_impact_describe_pre,Impact on learning (pre),IM02,Negative Impact,100,0.06,0.07,0.882,0.987,True
+txt_ai_impact_describe_pre,Impact on learning (pre),IM03,Mixed Impact,100,0.103,0.11,0.82,0.967,True
+txt_ai_impact_describe_pre,Impact on learning (pre),IM04,Neutral / No Impact,100,0.1,0.1,0.889,0.98,True
+txt_ai_impact_describe_pre,Impact on learning (pre),IM05,Does Not Use AI,100,0.17,0.15,0.906,0.973,True
+txt_ai_impact_describe_pre,Impact on learning (pre),IM06,Irrelevant / Noise,100,0.093,0.1,0.961,0.993,True
+txt_ai_impact_describe_pre,Impact on learning (pre),IM07,Concept Clarification,100,0.313,0.3,0.892,0.953,True
+txt_ai_impact_describe_pre,Impact on learning (pre),IM08,Step Verification,100,0.05,0.05,0.86,0.987,True
+txt_ai_impact_describe_pre,Impact on learning (pre),IM09,On-Demand Accessibility,100,0.093,0.09,0.961,0.993,True
+txt_ai_impact_describe_pre,Impact on learning (pre),IM10,Cognitive Reliance,100,0.153,0.14,0.923,0.98,True
+txt_ai_impact_describe_pre,Impact on learning (pre),IM11,Technical Failure,100,0.05,0.05,1.0,1.0,True
+txt_ai_impact_describe_pre,Impact on learning (pre),IM12,Pedagogical Misalignment,100,0.017,0.02,0.797,0.993,False
+txt_ai_impact_describe_pre,Impact on learning (pre),IM13,Method-Dependent,100,0.087,0.09,0.916,0.987,True
+txt_ai_impact_describe_pre,Impact on learning (pre),IM15,Affective / Confidence Support,100,0.007,0.0,0.497,0.993,False
+txt_ai_impact_describe_pre,Impact on learning (pre),IM14,Other / Idiosyncratic,100,0.063,0.09,0.55,0.947,True
+txt_ai_impact_describe_post,Impact on learning (post),IM01,Positive Impact,99,0.599,0.586,0.888,0.946,True
+txt_ai_impact_describe_post,Impact on learning (post),IM02,Negative Impact,99,0.051,0.04,1.0,1.0,True
+txt_ai_impact_describe_post,Impact on learning (post),IM03,Mixed Impact,99,0.145,0.162,0.755,0.939,True
+txt_ai_impact_describe_post,Impact on learning (post),IM04,Neutral / No Impact,99,0.158,0.172,0.949,0.987,True
+txt_ai_impact_describe_post,Impact on learning (post),IM05,Does Not Use AI,99,0.03,0.03,1.0,1.0,False
+txt_ai_impact_describe_post,Impact on learning (post),IM06,Irrelevant / Noise,99,0.017,0.01,0.797,0.993,False
+txt_ai_impact_describe_post,Impact on learning (post),IM07,Concept Clarification,99,0.428,0.434,0.945,0.973,True
+txt_ai_impact_describe_post,Impact on learning (post),IM08,Step Verification,99,0.054,0.051,0.934,0.993,True
+txt_ai_impact_describe_post,Impact on learning (post),IM09,On-Demand Accessibility,99,0.165,0.192,0.853,0.96,True
+txt_ai_impact_describe_post,Impact on learning (post),IM10,Cognitive Reliance,99,0.108,0.101,0.895,0.98,True
+txt_ai_impact_describe_post,Impact on learning (post),IM11,Technical Failure,99,0.091,0.091,1.0,1.0,True
+txt_ai_impact_describe_post,Impact on learning (post),IM12,Pedagogical Misalignment,99,0.064,0.061,0.775,0.973,True
+txt_ai_impact_describe_post,Impact on learning (post),IM13,Method-Dependent,99,0.054,0.04,0.604,0.96,True
+txt_ai_impact_describe_post,Impact on learning (post),IM15,Affective / Confidence Support,99,0.01,0.01,1.0,1.0,False
+txt_ai_impact_describe_post,Impact on learning (post),IM14,Other / Idiosyncratic,99,0.03,0.03,0.542,0.973,False
+txt_ai_demo_feedback_post,Demo feedback (post),DF01,Course Utility,60,0.161,0.167,0.959,0.989,True
+txt_ai_demo_feedback_post,Demo feedback (post),DF02,Capability Awareness,60,0.133,0.133,0.904,0.978,True
+txt_ai_demo_feedback_post,Demo feedback (post),DF03,Broader Context,60,0.05,0.05,1.0,1.0,True
+txt_ai_demo_feedback_post,Demo feedback (post),DF04,Other / Idiosyncratic Like,60,0.072,0.067,0.751,0.967,True
+txt_ai_demo_feedback_post,Demo feedback (post),DF05,Redundant / Basic,60,0.117,0.117,1.0,1.0,True
+txt_ai_demo_feedback_post,Demo feedback (post),DF06,Lacked Course Utility,60,0.178,0.183,0.886,0.967,True
+txt_ai_demo_feedback_post,Demo feedback (post),DF07,Logistics of Delivery Structure,60,0.061,0.033,0.71,0.967,True
+txt_ai_demo_feedback_post,Demo feedback (post),DF08,Cognitive Overload & Density,60,0.067,0.067,1.0,1.0,True
+txt_ai_demo_feedback_post,Demo feedback (post),DF09,Low Engagement,60,0.089,0.083,0.794,0.967,True
+txt_ai_demo_feedback_post,Demo feedback (post),DF10,Other / Idiosyncratic Dislike,60,0.067,0.067,0.821,0.978,True
+txt_ai_demo_feedback_post,Demo feedback (post),DF11,Increase Course Utility,60,0.222,0.217,0.904,0.967,True
+txt_ai_demo_feedback_post,Demo feedback (post),DF12,Increase Interactivity,60,0.094,0.1,0.935,0.989,True
+txt_ai_demo_feedback_post,Demo feedback (post),DF13,Modify Logistics of Delivery Structure,60,0.122,0.117,0.948,0.989,True
+txt_ai_demo_feedback_post,Demo feedback (post),DF14,Other / Idiosyncratic Suggestion,60,0.128,0.133,0.85,0.967,True
+txt_ai_demo_feedback_post,Demo feedback (post),DF16,Neutral / No Strong Opinion,60,0.017,0.017,1.0,1.0,False
+txt_ai_demo_feedback_post,Demo feedback (post),DF17,Irrelevant / Noise,60,0.056,0.067,0.894,0.989,True
+txt_ai_use_change_post,Change in AI use (post),UC01,No Substantive Change,99,0.391,0.414,0.929,0.966,True
+txt_ai_use_change_post,Change in AI use (post),UC02,Increased Frequency,99,0.081,0.071,0.909,0.987,True
+txt_ai_use_change_post,Change in AI use (post),UC03,Decreased Frequency,99,0.094,0.101,0.961,0.993,True
+txt_ai_use_change_post,Change in AI use (post),UC04,Context-Dependent Change,99,0.034,0.02,0.69,0.98,False
+txt_ai_use_change_post,Change in AI use (post),UC05,Shift Toward Study & Concept Support,99,0.114,0.111,0.9,0.98,True
+txt_ai_use_change_post,Change in AI use (post),UC06,Shift Toward Solution & Output Generation,99,0.037,0.03,0.717,0.98,False
+txt_ai_use_change_post,Change in AI use (post),UC07,Shift Toward Verification & Checking,99,0.047,0.04,0.925,0.993,False
+txt_ai_use_change_post,Change in AI use (post),UC08,Prompting Skill Improvement,99,0.044,0.04,0.92,0.993,False
+txt_ai_use_change_post,Change in AI use (post),UC09,Limiting Reliance,99,0.057,0.04,0.75,0.973,True
+txt_ai_use_change_post,Change in AI use (post),UC10,Increased Critical Scrutiny,99,0.098,0.101,0.885,0.98,True
+txt_ai_use_change_post,Change in AI use (post),UC11,Tool / Model Selection,99,0.081,0.081,1.0,1.0,True
+txt_ai_use_change_post,Change in AI use (post),UC12,Shift to Non-AI Resources,99,0.03,0.03,1.0,1.0,False
+txt_ai_use_change_post,Change in AI use (post),UC13,Other / Unspecified Change,99,0.03,0.02,0.656,0.98,False
+txt_ai_use_change_post,Change in AI use (post),UC14,Irrelevant / Noise,99,0.061,0.061,1.0,1.0,True
+txt_ai_use_change_post,Change in AI use (post),UC15,Never Used AI,99,0.02,0.02,1.0,1.0,False

@@ -1,0 +1,998 @@
+{
+  "demo_feedback": {
+    "codebook_file": "codebook_txt_ai_demo_feedback_post.csv",
+    "columns": [
+      "txt_ai_demo_feedback_post"
+    ],
+    "question_text": "What did you like/dislike about the AI demonstrations you attended? If you have one suggestion to help us improve the AI demonstrations, what would it be?",
+    "selection": "multi",
+    "min_codes": 1,
+    "exclusive_codes": [
+      "DF16",
+      "DF17"
+    ],
+    "tier_rules": null,
+    "codes": [
+      {
+        "id": "DF01",
+        "tier": null,
+        "category": "Likes",
+        "name": "Course Utility",
+        "description": "Appreciation for demonstrations directly tied to class deliverables. Apply when the student praises the immediate, applied usefulness of demonstrated AI use for graded coursework (e.g., the truss project, homework, exams).",
+        "do_not_apply_when": "The student is requesting MORE course-tied content rather than praising content that was delivered (-> DF11). The praise concerns AI capabilities or prompting in general, untied to a course task (-> DF02).",
+        "distinguish_from": "DF11 (praise of delivered content vs. suggestion for future content); DF02 (course-task utility vs. general capability)",
+        "examples": "\"I liked how it showed how it was applied to the truss project.\" \u2022 \"it was helpful to know how to utilize AI for the truss project\" \u2022 \"the AI demonstrations where sometimes geared towards our project so it related to work we were doing\""
+      },
+      {
+        "id": "DF02",
+        "tier": null,
+        "category": "Likes",
+        "name": "Capability Awareness",
+        "description": "Positive feedback regarding learning novel AI capabilities, prompting techniques, or new platforms (e.g., Gemini). Apply when the student expresses appreciation for discovering what AI can do or how to control it better, independent of a specific graded task.",
+        "do_not_apply_when": "The appreciation is tied to a specific graded deliverable (-> DF01). The appreciation concerns real-world/industry framing rather than tool capability (-> DF03).",
+        "distinguish_from": "DF01; DF03",
+        "examples": "\"I love how I was introduced to the capabilities of the Gemini, and now it has become my go-to tool for Graph-related questions\" \u2022 \"I liked learning about tips and such that I didn't know before about AI, such as changing the voice/way the AI responds\""
+      },
+      {
+        "id": "DF03",
+        "tier": null,
+        "category": "Likes",
+        "name": "Broader Context",
+        "description": "Enjoyment derived from seeing AI placed in larger real-world engineering, research, or industry context. Apply when the student praises the broader educational, societal, or research framing rather than immediate class tasks or tool mechanics.",
+        "do_not_apply_when": "The praise is about tool capability or prompting technique (-> DF02) or applicability to coursework (-> DF01).",
+        "distinguish_from": "DF01; DF02",
+        "examples": "\"I liked the comparison to research studies - places everything in the wider context of academia\" \u2022 \"I liked that they included real world examples, eg when companies like Boeing where mentioned\" \u2022 \"I liked learning about whats going on in the world with AI that I dont learn from other classes\""
+      },
+      {
+        "id": "DF04",
+        "tier": null,
+        "category": "Likes",
+        "name": "Other / Idiosyncratic Like",
+        "description": "Valid, constructive positive feedback that does not fit DF01-DF03 and lacks sufficient frequency to form its own category. Describe the like in the notes field.",
+        "do_not_apply_when": "Any of DF01-DF03 fits, even at low confidence (apply that code and flag instead).",
+        "distinguish_from": "DF01-DF03 (residual only)",
+        "examples": "\"I liked seeing that educators are working on researching / integrating AI use into classes\" \u2022 \"I liked that the AI demonstrations were giving us the ability to use AI instead of pushing the idea that using AI is inherently evil\""
+      },
+      {
+        "id": "DF05",
+        "tier": null,
+        "category": "Dislikes",
+        "name": "Redundant / Basic",
+        "description": "Frustration that the baseline AI literacy of the class was underestimated. Apply when the student expresses that they (or students generally) already knew the material presented.",
+        "do_not_apply_when": "The complaint is that content, however novel, did not help with coursework (-> DF06). The complaint is about density or pacing (-> DF07/DF08).",
+        "distinguish_from": "DF06 (already known vs. not useful); DF08",
+        "examples": "\"Most stuff wasnt new to me\" \u2022 \"I feel like most students knew of the stuff shown in the AI demonstrations\" \u2022 \"They showed things I am willing to bet most college students already know how to do\" \u2022 \"Some felt repetitive or obvious at times.\""
+      },
+      {
+        "id": "DF06",
+        "tier": null,
+        "category": "Dislikes",
+        "name": "Lacked Course Utility",
+        "description": "Frustration that the demos did not assist with immediate course hurdles (homework, core mechanics), including the feeling that demo time displaced core instruction.",
+        "do_not_apply_when": "The complaint is that material was already known (-> DF05). The student proposes a change to increase applicability without complaining about what was delivered (-> DF11). When both a complaint and a proposal are present, apply both DF06 and DF11.",
+        "distinguish_from": "DF05; DF11 (complaint vs. suggestion)",
+        "examples": "\"I struggled to find them applicable to our coursework. They seemed more general and slightly disjointed.\" \u2022 \"Sometimes not relevant to the course material and background info\" \u2022 \"not very helpful in terms of homework or any type of solving problem in a traditional way\" \u2022 \"I would have preferred to spend the \"AI\" sections of the class doing more examples/getting taught more\""
+      },
+      {
+        "id": "DF07",
+        "tier": null,
+        "category": "Dislikes",
+        "name": "Logistics of Delivery Structure",
+        "description": "Complaints about WHEN and HOW LONG: timing, placement in the lecture, duration, or scheduling of the demonstrations.",
+        "do_not_apply_when": "The complaint concerns the AMOUNT or COMPLEXITY of content rather than its timing/duration/placement (-> DF08). If a response contains both (e.g., too much content in too little time), apply both DF07 and DF08. The student proposes a logistics change (-> DF13; apply both if a complaint is also stated).",
+        "distinguish_from": "DF08 (schedule/duration vs. content density); DF13 (complaint vs. suggestion)",
+        "examples": "\"It being at the end of class make it difficult to pay attention\" \u2022 \"I disliked how long they were\""
+      },
+      {
+        "id": "DF08",
+        "tier": null,
+        "category": "Dislikes",
+        "name": "Cognitive Overload & Density",
+        "description": "Frustration that the demonstrations were too complex, too dense, or induced mental fatigue: too much information to absorb, or content requiring background (e.g., programming) that students lacked.",
+        "do_not_apply_when": "The complaint is purely about timing, placement, or duration (-> DF07).",
+        "distinguish_from": "DF07; DF05 (too much new content vs. nothing new)",
+        "examples": "\"I felt they were a little bit of an information dump into a small amount of time and so I was confused by the end\" \u2022 \"A Lot of info in a small amount of time.\" \u2022 \"some tools, like the virtual sandbox, required a decent amount of knowledge of programming\""
+      },
+      {
+        "id": "DF09",
+        "tier": null,
+        "category": "Dislikes",
+        "name": "Low Engagement",
+        "description": "Observations that the format failed to hold student attention: boredom, passive distraction, phone usage among peers, or self-reported disengagement.",
+        "do_not_apply_when": "The student proposes engagement-boosting changes without describing disengagement (-> DF12/DF14); apply both when both are present.",
+        "distinguish_from": "DF12 (observed problem vs. proposed fix)",
+        "examples": "\"Majority of the time it seemed like students did not really pay attention and rather just went on their phones\" \u2022 \"Honestly it was just not very interesting to most students\" \u2022 \"There were times when I felt like I was not very engaged in some of them\""
+      },
+      {
+        "id": "DF10",
+        "tier": null,
+        "category": "Dislikes",
+        "name": "Other / Idiosyncratic Dislike",
+        "description": "Valid, constructive negative feedback that does not fit DF05-DF09 and lacks sufficient frequency to form its own category. Describe the dislike in the notes field.",
+        "do_not_apply_when": "Any of DF05-DF09 fits, even at low confidence (apply that code and flag instead). In particular, complaints reducible to time not well spent for coursework (-> DF06) or to content already known (-> DF05).",
+        "distinguish_from": "DF05-DF09 (residual only)",
+        "examples": "\"Goal was unclear\" \u2022 \"it felt like I was just watching my professor play around with an AI engine\""
+      },
+      {
+        "id": "DF11",
+        "tier": null,
+        "category": "Suggestions",
+        "name": "Increase Course Utility",
+        "description": "Recommendations to pivot demonstrations toward immediate academic help: exam preparation, generating practice problems, Socratic tutoring, project assistance, checking homework, or error-finding in student work.",
+        "do_not_apply_when": "The student only praises course-tied content already delivered (-> DF01) or only complains about lack of utility without proposing a direction (-> DF06).",
+        "distinguish_from": "DF01; DF06",
+        "examples": "\"AI demonstrations should show more ways in how AI can help students study for exams... generating practice problems and solution as well as flash[cards]\" \u2022 \"More things applicable to the class instead of broad view\" \u2022 \"the best way of helping us learn is by seeking how to look for mistakes\""
+      },
+      {
+        "id": "DF12",
+        "tier": null,
+        "category": "Suggestions",
+        "name": "Increase Interactivity",
+        "description": "Requests to move away from passive observation: guided, hands-on, class-wide prompting activities where students use the tools themselves, or more interactive formats generally.",
+        "do_not_apply_when": "The suggestion concerns content applicability (-> DF11) or scheduling/format of delivery (-> DF13).",
+        "distinguish_from": "DF11; DF13; DF09 (fix vs. observed problem)",
+        "examples": "\"Having students join in the demonstration could be helpful, maybe the entire class follows a guide\" \u2022 \"I wish the demonstrations were a bit more interactive beyond just talking to our neighbors\" \u2022 \"More interactive models maybe?\""
+      },
+      {
+        "id": "DF13",
+        "tier": null,
+        "category": "Suggestions",
+        "name": "Modify Logistics of Delivery Structure",
+        "description": "Suggestions to change how and when the demonstrations are delivered: moving demos to the start of class, making them shorter, or shifting them to optional asynchronous modules (e.g., Blackboard/Piazza video).",
+        "do_not_apply_when": "The student only complains about logistics without proposing a change (-> DF07). \"Make them shorter\" is DF13; \"they were too long\" is DF07; apply both when both are stated.",
+        "distinguish_from": "DF07; DF12 (format change vs. interactivity change)",
+        "examples": "\"maybe making a video and posting it on blackboard or piazza so people can come back to them or if they miss class\" \u2022 \"Start the class with the demos when everyone's focus is high\" \u2022 \"Make them more concise.\" \u2022 \"demonstrations at the start of the class would make mores sense\""
+      },
+      {
+        "id": "DF14",
+        "tier": null,
+        "category": "Suggestions",
+        "name": "Other / Idiosyncratic Suggestion",
+        "description": "A valid, constructive suggestion that does not fit DF11-DF13 and lacks sufficient frequency to form its own category. Describe the suggestion in the notes field.",
+        "do_not_apply_when": "Any of DF11-DF13 fits, even at low confidence (apply that code and flag instead).",
+        "distinguish_from": "DF11-DF13 (residual only)",
+        "examples": "\"I think if there was an incentive people would engage more\" \u2022 \"gauge what the students want to take away from AI first, then conduct the demos\" \u2022 \"show how to use it on different llms\""
+      },
+      {
+        "id": "DF15",
+        "tier": null,
+        "category": "Not Applicable",
+        "name": "Did Not Attend / Cannot Comment",
+        "description": "Student states they did not attend the demonstrations, attended too few to comment, or otherwise cannot evaluate them. Standalone when it is the whole response; if the student also comments substantively on demos they did see, code those comments and add DF15 only if partial attendance is explicitly the reason for limited feedback.",
+        "do_not_apply_when": "The student attended and simply has no opinion (-> DF16). The response is blank or off-topic (-> DF17).",
+        "distinguish_from": "DF16 (cannot evaluate vs. evaluated as unremarkable); DF17",
+        "examples": "\"I missed most of the demos so I can't really say\" (constructed example)"
+      },
+      {
+        "id": "DF16",
+        "tier": null,
+        "category": "Neutral",
+        "name": "Neutral / No Strong Opinion",
+        "description": "Student attended and reports no strong reaction in either direction, without substantive likes, dislikes, or suggestions. Standalone: if a specific like/dislike/suggestion is also given, code that instead.",
+        "do_not_apply_when": "Any substantive like, dislike, or suggestion is present. The student could not evaluate due to non-attendance (-> DF15).",
+        "distinguish_from": "DF15; DF17 (an on-topic neutral evaluation vs. no codable content)",
+        "examples": "\"i didnt feel very strongly about them either way\""
+      },
+      {
+        "id": "DF17",
+        "tier": null,
+        "category": "Uncodable",
+        "name": "Irrelevant / Noise",
+        "description": "Responses that are blank, nonsensical, or fail to address the prompt about the demonstrations in any capacity. Standalone.",
+        "do_not_apply_when": "Any other code can be applied, even at low confidence (apply it and flag instead).",
+        "distinguish_from": "All codes (residual only); DF15; DF16",
+        "examples": "\"N/A\" \u2022 \"good\" \u2022 \"Know more about Ai\""
+      }
+    ],
+    "extra_rules": [
+      "A single response can contain likes, dislikes, and suggestions; apply one code per distinct point.",
+      "DF15 (Did Not Attend) may co-occur with substantive codes only when partial attendance is explicitly given as the reason for limited feedback; otherwise it stands alone.",
+      "Complaints and matching suggestions are separate codes: code both when both are stated (e.g., DF07 + DF13, DF06 + DF11)."
+    ]
+  },
+  "impact_describe": {
+    "codebook_file": "codebook_txt_ai_impact_describe_pre_post.csv",
+    "columns": [
+      "txt_ai_impact_describe_pre",
+      "txt_ai_impact_describe_post"
+    ],
+    "question_text": "How would you describe the impact of AI tools (positive and negative) on your learning in this course?",
+    "selection": "tiered",
+    "min_codes": 1,
+    "exclusive_codes": [
+      "IM06"
+    ],
+    "tier_rules": {
+      "T1": {
+        "min": 1,
+        "max": 1
+      },
+      "T2": {
+        "min": 0,
+        "max": null
+      }
+    },
+    "codes": [
+      {
+        "id": "IM01",
+        "tier": "T1",
+        "category": "Overall Sentiment",
+        "name": "Positive Impact",
+        "description": "Student's net self-assessment is that the tool helped their learning. Apply when a net positive direction is stated (\"positive\", \"helpful\", \"mostly positive\"), even if drawbacks are also mentioned; capture drawbacks as Tier 2 drivers.",
+        "do_not_apply_when": "Pros and cons are weighed with NO stated net direction (-> IM03). The stated benefit is hypothetical because they do not use AI (-> IM05).",
+        "distinguish_from": "IM03 (stated net direction vs. unresolved trade-off)",
+        "examples": "\"Positive, I have received help outside of class when I could not attend office hours.\" \u2022 \"I would say overall positive in understanding concepts but maybe negative in being able to solve the problems on my own\" (net direction stated -> IM01 + Tier 2 drivers) \u2022 \"Very positive, helps break problems down into steps\""
+      },
+      {
+        "id": "IM02",
+        "tier": "T1",
+        "category": "Overall Sentiment",
+        "name": "Negative Impact",
+        "description": "Student's net self-assessment is that the tool hindered their learning or was a net negative.",
+        "do_not_apply_when": "A net positive or no net direction is stated (-> IM01/IM03). The student reports no impact (-> IM04).",
+        "distinguish_from": "IM03; IM04",
+        "examples": "\"I hate generative AI I think it's making me a dumber and worse students.\" \u2022 \"Pretty bad honestly.\" \u2022 \"Negative. I think it's better not to use it as it hinders effective learning and deep thinking.\""
+      },
+      {
+        "id": "IM03",
+        "tier": "T1",
+        "category": "Overall Sentiment",
+        "name": "Mixed Impact",
+        "description": "Student weighs both pros and cons with active conflict or trade-offs and does NOT state a net direction, or explicitly says the impact is both positive and negative.",
+        "do_not_apply_when": "A net direction is stated despite caveats (-> IM01/IM02: code the net direction and put the caveats in Tier 2).",
+        "distinguish_from": "IM01/IM02 (the deciding question: did the student state which way it nets out?)",
+        "examples": "\"Positive for understanding concepts but negative when actually solving given problems.\" \u2022 \"It is both positive and negative on my learning.\" \u2022 \"I think it helps teach me but it makes me less motivated to work things out myself\""
+      },
+      {
+        "id": "IM04",
+        "tier": "T1",
+        "category": "Overall Sentiment",
+        "name": "Neutral / No Impact",
+        "description": "Student USES (or has used) AI but reports it did not move the needle or had zero net effect.",
+        "do_not_apply_when": "The student states they do not or have not used AI in this course (-> IM05). Pros and cons are actively weighed (-> IM03).",
+        "distinguish_from": "IM05 (no effect from use vs. no use); IM03",
+        "examples": "\"It didn't really affect my learning much. I would say my own personal effort affected my learning the most.\" \u2022 \"Neutral. Neither helped drastically or hindered me drastically.\" \u2022 \"It honestly hasn't made much of an impact, I haven't used AI much.\" (minimal use with explicit no-impact judgment)"
+      },
+      {
+        "id": "IM05",
+        "tier": "T1",
+        "category": "Not Applicable",
+        "name": "Does Not Use AI",
+        "description": "Student states they do not use, or have not used, AI tools in this course, so the impact question does not apply to them. Speculation about future or hypothetical impact does not change this code. Tier 2 codes MAY be applied when the student gives concrete reasons for non-use that match a Tier 2 code (e.g., Technical Failure).",
+        "do_not_apply_when": "The student uses AI minimally but still renders an impact judgment (-> IM01-IM04 per the judgment).",
+        "distinguish_from": "IM04 (no use vs. no effect from use)",
+        "examples": "\"I have not used AI tools for learning in this course specifically.\" \u2022 \"I haven't used AI in EK 301\" \u2022 \"I didn't use AI\" \u2022 \"Haven't used AI in this course\" \u2022 \"Not applicable yet.\""
+      },
+      {
+        "id": "IM06",
+        "tier": "T1",
+        "category": "Uncodable",
+        "name": "Irrelevant / Noise",
+        "description": "Responses that provide no codable data: 'N/A', blank, nonsensical, or failing to address the prompt. Standalone; select no Tier 2 codes.",
+        "do_not_apply_when": "Any other Tier 1 code can be applied, even at low confidence (apply it and flag instead). Note: a bare \"N/A\" defaults here, but \"N/A, I don't use AI\" is IM05.",
+        "distinguish_from": "IM05; all Tier 1 codes (residual only)",
+        "examples": "\"N/A\" \u2022 \"no\" \u2022 \"don't know yet\""
+      },
+      {
+        "id": "IM07",
+        "tier": "T2",
+        "category": "Positive Affordances",
+        "name": "Concept Clarification",
+        "description": "Use of AI to break down concepts, explain the 'bigger picture', or clarify confusing lecture topics.",
+        "do_not_apply_when": "The described use is checking work or finding mistakes (-> IM08).",
+        "distinguish_from": "IM08 (explaining material vs. checking work)",
+        "examples": "\"they help explain the concepts and steps for solving problems\" \u2022 \"it can answer my very specific question, and in context\" \u2022 \"It helped me understand more\""
+      },
+      {
+        "id": "IM08",
+        "tier": "T2",
+        "category": "Positive Affordances",
+        "name": "Step Verification",
+        "description": "Use of AI as a diagnostic tool to check intermediate steps, check answers, find mistakes, or confirm methodology.",
+        "do_not_apply_when": "The described use is explaining concepts (-> IM07).",
+        "distinguish_from": "IM07",
+        "examples": "\"It's helped me learn and check my answers\" \u2022 \"they make it easy to verify my work and see where I may have gone wrong\" \u2022 \"makes checking for mistakes easier without having to wait for the posted answers\""
+      },
+      {
+        "id": "IM09",
+        "tier": "T2",
+        "category": "Positive Affordances",
+        "name": "On-Demand Accessibility",
+        "description": "Valuation of AI for its efficiency, speed, or availability outside standard office hours. Includes dialogic availability: the ability to ask unlimited or immediate follow-up questions.",
+        "do_not_apply_when": "Speed/availability is not mentioned as part of the value.",
+        "distinguish_from": "IM07/IM08 (WHY it helps: availability vs. content)",
+        "examples": "\"almost always available and flexible to use versus office hours\" \u2022 \"I have received help outside of class when I could not attend office hours\" \u2022 \"much more accessible and less time consuming then having to go to oh or discussion\" \u2022 \"I like that I can always ask follow up questions.\""
+      },
+      {
+        "id": "IM10",
+        "tier": "T2",
+        "category": "Negative Hindrances",
+        "name": "Cognitive Reliance",
+        "description": "Hindrance to the student's own cognitive process: reports of feeling 'lazy', over-reliant, losing critical thinking or problem-solving skill, or fear thereof from their own use.",
+        "do_not_apply_when": "The student only states the tool is good IF used correctly, without reporting actual or feared harm to their own cognition (-> IM13). Both can co-occur.",
+        "distinguish_from": "IM13 (experienced/feared harm vs. conditional framing)",
+        "examples": "\"1 think I've gotten lazier with solving problems\" \u2022 \"the negative effect is that i rely on it too much\" \u2022 \"it also limits my thinking abilities\" \u2022 \"perhaps negative for times I feel like not engaging with the AI and allowing it to answer questions, weakening my problem solving skills\""
+      },
+      {
+        "id": "IM11",
+        "tier": "T2",
+        "category": "Negative Hindrances",
+        "name": "Technical Failure",
+        "description": "Failure of the AI to perform the academic task correctly: wrong math, hallucination, inability to interpret mechanics diagrams or images.",
+        "do_not_apply_when": "The AI's content is accurate but its teaching approach or presentation is unhelpful (-> IM12).",
+        "distinguish_from": "IM12 (wrong content vs. unhelpful presentation)",
+        "examples": "\"sometimes can confuse you by giving wrong answers\" \u2022 \"the AI tools so far have lack of ability to correctly analyze the images of mechanics problems\" \u2022 \"While AI isn't always correct about the final answer\""
+      },
+      {
+        "id": "IM12",
+        "tier": "T2",
+        "category": "Negative Hindrances",
+        "name": "Pedagogical Misalignment",
+        "description": "Frustration with the AI's teaching methods, explanation structure, or clarity, regardless of technical accuracy: strange strategies, misalignment with course material, vague or nonspecific explanations.",
+        "do_not_apply_when": "The complaint is that the AI's content is factually or mathematically wrong (-> IM11).",
+        "distinguish_from": "IM11",
+        "examples": "\"it can teach strange strategies or systems of solving that don't align with how th[e course teaches]\" \u2022 \"tips for solving mechanics problems based on online resources, which are mixed and nonspecific\""
+      },
+      {
+        "id": "IM13",
+        "tier": "T2",
+        "category": "Conditional Use",
+        "name": "Method-Dependent",
+        "description": "Recognition that the tool's impact is tied to user behavior: AI is only positive 'if used correctly' and negative if misused.",
+        "do_not_apply_when": "The student reports actual or feared harm to their own cognition without conditional framing (-> IM10 alone).",
+        "distinguish_from": "IM10",
+        "examples": "\"If applied correctly it is a useful tool, but it can easily be extremely negative for learning if not used properly\" \u2022 \"I think its positive if used correctly\" \u2022 \"There are ways to use tools that can negatively impact learning, while there are also ways to positively enhance learning.\""
+      },
+      {
+        "id": "IM15",
+        "tier": "T2",
+        "category": "Positive Affordances",
+        "name": "Affective / Confidence Support",
+        "description": "Emotional or confidence-related benefit: reduced frustration or stress, increased confidence, comfort asking questions without judgment, feeling supported or less stuck.",
+        "do_not_apply_when": "The benefit described is purely functional (content explained -> IM07; work checked -> IM08; speed/availability -> IM09) with no emotional or confidence dimension stated.",
+        "distinguish_from": "IM09 (convenience vs. emotional relief); IM07; IM14",
+        "examples": "\"Very positive, eased the frustration gap while also allowing me to learn with assistance.\""
+      },
+      {
+        "id": "IM14",
+        "tier": "T2",
+        "category": "Emergent",
+        "name": "Other / Idiosyncratic",
+        "description": "A specific driver of sentiment is stated but fits no other Tier 2 code, even partially. Apply this code AND describe the novel driver in the notes field. A generic restatement of positivity or helpfulness is NOT a driver; check IM07-IM13 and IM15 first, and prefer a partial fit over this residual.",
+        "do_not_apply_when": "Any other Tier 2 code fits, even partially or at low confidence (apply it and flag instead). The driver is emotional or confidence-related (-> IM15). No specific driver is stated (leave Tier 2 empty; an empty Tier 2 is valid).",
+        "distinguish_from": "IM07-IM13, IM15 (residual only)",
+        "examples": "\"I'll be so doomed if there's no AI because [of language related difficulties], it's hard for me to read and understand by using textbooks\" (language accessibility driver)"
+      }
+    ],
+    "extra_rules": [
+      "Select exactly one Tier 1 code, then all Tier 2 driver codes that apply. An empty Tier 2 is valid when no specific driver is stated.",
+      "Tier 1 net-direction rule: if the student states which way the impact nets out, code that direction and put caveats in Tier 2; Mixed (IM03) is reserved for unresolved trade-offs or explicit both.",
+      "If Tier 1 is IM05 (Does Not Use AI), Tier 2 codes may be applied only for concrete stated reasons for non-use.",
+      "If Tier 1 is IM06 (Irrelevant / Noise), select no Tier 2 codes.",
+      "If IM14 (Other / Idiosyncratic) is applied, describe the novel driver in the notes field."
+    ]
+  },
+  "use_change": {
+    "codebook_file": "codebook_txt_ai_use_change_post.csv",
+    "columns": [
+      "txt_ai_use_change_post"
+    ],
+    "question_text": "Please describe any changes in how you use AI tools for your learning since the start of the semester.",
+    "selection": "multi",
+    "min_codes": 1,
+    "exclusive_codes": [
+      "UC01",
+      "UC14",
+      "UC15"
+    ],
+    "tier_rules": null,
+    "codes": [
+      {
+        "id": "UC01",
+        "tier": null,
+        "category": "No Substantive Change",
+        "name": "No Substantive Change",
+        "description": "AI use has not meaningfully changed over the semester, or the reported change is minimal/vague. Apply when the student reports continuity, or a slight shift without substantive detail. Standalone.",
+        "do_not_apply_when": "The student has never used AI at all (-> UC15). A specific, clear change is described (-> the relevant change code). A clear change is described that fits no code (-> UC13).",
+        "distinguish_from": "UC15 (unchanged use vs. no use); UC13 (vague shift vs. clear-but-unclassifiable change)",
+        "examples": "\"no change really\" \u2022 \"Stayed consistent\" \u2022 \"slightly changed\" \u2022 \"I don't really use AI that much, so the way I've used it has stayed pretty consistent.\" \u2022 \"Did not\""
+      },
+      {
+        "id": "UC02",
+        "tier": null,
+        "category": "Frequency of Use",
+        "name": "Increased Frequency",
+        "description": "Reported rise in how often AI is used, regardless of stated reason.",
+        "do_not_apply_when": "The increase applies only in some contexts with decrease in others (-> UC04).",
+        "distinguish_from": "UC04",
+        "examples": "\"More frequent\" \u2022 \"As the subjects got harder i started using it more to get more understanding.\" \u2022 \"Been using more\" \u2022 \"I use them more frequently to assist with outside work.\""
+      },
+      {
+        "id": "UC03",
+        "tier": null,
+        "category": "Frequency of Use",
+        "name": "Decreased Frequency",
+        "description": "Reported decline in how often AI is used, including stopping entirely after prior use. CO-CODE with UC12 when the student names a non-AI replacement resource, and with UC10 when the stated reason is distrust or discovered limitations.",
+        "do_not_apply_when": "The student never used AI in the first place (-> UC15). Use varies by context rather than declining overall (-> UC04).",
+        "distinguish_from": "UC15 (stopped vs. never started); UC04; UC12 and UC10 (co-occurring, not competing)",
+        "examples": "\"i have used them less than in the past\" \u2022 \"Stopped\" \u2022 \"I honestly use it less because I realized it's not that great at doing engineering.\" \u2022 \"I've used them less overall mostly due to the environmental impact\""
+      },
+      {
+        "id": "UC04",
+        "tier": null,
+        "category": "Frequency of Use",
+        "name": "Context-Dependent Change",
+        "description": "Change in use that varies by subject, course, or problem difficulty rather than uniformly: more in some contexts, less in others.",
+        "do_not_apply_when": "The change is uniform in one direction (-> UC02/UC03).",
+        "distinguish_from": "UC02; UC03",
+        "examples": "\"I use them much more frequently for math and physics but for mechanics I avoid it.\" \u2022 \"AI works better for certain classes, and worse for others. I've only found it helpful in one class this semester, and it isn't mechanics.\""
+      },
+      {
+        "id": "UC05",
+        "tier": null,
+        "category": "Manner of Use",
+        "name": "Shift Toward Study & Concept Support",
+        "description": "Student's use has moved TOWARD learning-support tasks: studying, flashcards, concept review, or deepening comprehension. Direction rule: Manner of Use codes (UC05-UC07) describe the manner the student has adopted or increased, never a manner they report abandoning.",
+        "do_not_apply_when": "The student reports moving AWAY from concept support. The shift is toward checking their own completed work (-> UC07).",
+        "distinguish_from": "UC07 (learning content vs. checking own work); UC09 (what AI is used for vs. deliberate self-restriction)",
+        "examples": "\"I use it more for studying now than anything else.\" \u2022 \"I use it more now for concept learning/review\" \u2022 \"I've started to use AI for all my classes in learning, practicing, and doing things like flashcards.\""
+      },
+      {
+        "id": "UC06",
+        "tier": null,
+        "category": "Manner of Use",
+        "name": "Shift Toward Solution & Output Generation",
+        "description": "Student's use has moved TOWARD output generation: writing code, solving problems, or generating text for deliverables. Same direction rule as UC05.",
+        "do_not_apply_when": "The student reports abandoning solution generation (usually -> UC09 or UC07 depending on what replaced it).",
+        "distinguish_from": "UC05; UC09",
+        "examples": "\"I will start to use it to generate experimental reports\" \u2022 \"I have learned to use it to help my code in certain classes and projects differently than before.\""
+      },
+      {
+        "id": "UC07",
+        "tier": null,
+        "category": "Manner of Use",
+        "name": "Shift Toward Verification & Checking",
+        "description": "Shift toward using AI to check or validate the student's own work rather than to generate it. Apply only when the student indicates doing the work themselves first. Same direction rule as UC05.",
+        "do_not_apply_when": "The student asks AI to explain concepts from scratch (-> UC05). The change is a deliberate restriction to protect learning without a checking workflow (-> UC09; the two often co-occur).",
+        "distinguish_from": "UC05; UC09",
+        "examples": "\"I would rely less on it for completing problems and more just as a checking tool\" \u2022 \"I use AI more strategically now in order to check my homework.\" \u2022 \"I use it more like a peer tutor (I check for its mistakes and it checks for mine) rather than just giving me answers\""
+      },
+      {
+        "id": "UC08",
+        "tier": null,
+        "category": "Manner of Use",
+        "name": "Prompting Skill Improvement",
+        "description": "Improvement in how the student formulates queries or interacts with the tool: better prompting, providing more context, greater efficiency in getting useful responses.",
+        "do_not_apply_when": "The change is which tool is used rather than how it is prompted (-> UC11).",
+        "distinguish_from": "UC11; UC09 (better prompts vs. deliberately withholding information to protect learning)",
+        "examples": "\"Better at wording my questions to get the response I want\" \u2022 \"Trying to give it more context before asking any questions.\" \u2022 \"Probably just efficiency and knowing how to ask questions better?\""
+      },
+      {
+        "id": "UC09",
+        "tier": null,
+        "category": "Stance & Self-Regulation",
+        "name": "Limiting Reliance",
+        "description": "Deliberate moderation or restriction of AI to protect one's own learning: expressed concern about over-reliance, or intentionally limiting the task (e.g., withholding numbers) so the student still does the cognitive work.",
+        "do_not_apply_when": "The reduction is driven by AI's unreliability rather than by protecting one's own learning (-> UC10, often with UC03).",
+        "distinguish_from": "UC10 (protecting own learning vs. distrusting the tool); UC03",
+        "examples": "\"I tried not to use AI while learning the material and practicing proble[ms]\" \u2022 \"I am just making sure that I don't rely too much on AI to help me solve problems.\" \u2022 \"now I try to give it the structure of the problem without numebrs so I still have to do the work myself\""
+      },
+      {
+        "id": "UC10",
+        "tier": null,
+        "category": "Stance & Self-Regulation",
+        "name": "Increased Critical Scrutiny",
+        "description": "Growth in critical evaluation and awareness of AI limitations: questioning outputs, discovering poor performance in specific domains (e.g., trusses, diagrams), no longer trusting implicitly.",
+        "do_not_apply_when": "The motivation is protecting one's own learning rather than the tool's reliability (-> UC09).",
+        "distinguish_from": "UC09",
+        "examples": "\"I started to question the answers a lot more as I went through the semester.\" \u2022 \"Less accurate for trusses\" \u2022 \"being cautious when AI has to interpret graphs and stuff like that\" \u2022 \"I am more skeptical, but overall it hasn't changed very much.\" (co-code UC10 + UC01? No: a stance change IS a change; code UC10 alone)"
+      },
+      {
+        "id": "UC11",
+        "tier": null,
+        "category": "Tool & Resource Selection",
+        "name": "Tool / Model Selection",
+        "description": "Change in the AI tool, platform, or tier used: switching primary tools, using different models for different purposes, or changing subscription tiers.",
+        "do_not_apply_when": "The change is in prompting technique with the same tool (-> UC08).",
+        "distinguish_from": "UC08",
+        "examples": "\"I was using ChatGPT at the beginning, then switched to Claude around March.\" \u2022 \"Now I use different platforms for different uses.\" \u2022 \"i bought pro plan\" \u2022 \"I have started using other models rather than sticking to one.\""
+      },
+      {
+        "id": "UC12",
+        "tier": null,
+        "category": "Tool & Resource Selection",
+        "name": "Shift to Non-AI Resources",
+        "description": "Shift toward non-AI learning resources: instructors, office hours, TAs, textbooks, lecture notes, or videos in place of AI. Usually co-occurs with UC03.",
+        "do_not_apply_when": "No specific non-AI replacement is named (UC03 alone).",
+        "distinguish_from": "UC03 (co-occurring: UC03 = less AI, UC12 = named replacement)",
+        "examples": "\"I've used it less and pivoted to office hours and youtube videos\" \u2022 \"I relied on it a little less because I preferred looking over lecture notes\" \u2022 \"students would be better off going to instructors with doubts\""
+      },
+      {
+        "id": "UC13",
+        "tier": null,
+        "category": "Other",
+        "name": "Other / Unspecified Change",
+        "description": "A valid, CLEAR change in AI use that fits none of the themes above and is too idiosyncratic to warrant its own code. Describe the change in the notes field.",
+        "do_not_apply_when": "The change is vague or minimal (-> UC01). Any other code fits, even at low confidence (apply it and flag instead).",
+        "distinguish_from": "UC01 (clear-but-unclassifiable vs. vague/minimal)",
+        "examples": "\"Can pace myself better.\" \u2022 \"I use ai where I would have searched the answer\""
+      },
+      {
+        "id": "UC14",
+        "tier": null,
+        "category": "Uncodable",
+        "name": "Irrelevant / Noise",
+        "description": "Responses that are blank, nonsensical, or fail to address the prompt about changes in AI use in any capacity. Standalone.",
+        "do_not_apply_when": "Any other code can be applied, even at low confidence (apply it and flag instead). \"None\"/\"No changes\" address the prompt (-> UC01).",
+        "distinguish_from": "UC01 (a no-change answer is codable, not noise)",
+        "examples": "\"Na\" \u2022 \"N/A\" \u2022 \"I knew most of the material covered.\" (does not address the prompt)"
+      },
+      {
+        "id": "UC15",
+        "tier": null,
+        "category": "Not Applicable",
+        "name": "Never Used AI",
+        "description": "Student states they do not use AI at all and have not during the semester, so the change question does not apply. Standalone.",
+        "do_not_apply_when": "The student used AI and reduced or stopped (-> UC03). The student uses AI rarely but consistently (-> UC01).",
+        "distinguish_from": "UC03 (never started vs. stopped); UC01",
+        "examples": "\"I didn't use AI\" \u2022 \"None, still haven't used it\""
+      }
+    ],
+    "extra_rules": [
+      "UC01 (No Substantive Change), UC14 (Irrelevant / Noise), and UC15 (Never Used AI) are standalone codes; never combine them with other codes.",
+      "Direction rule: Manner of Use codes (UC05-UC07) describe the manner the student has adopted or increased, never a manner they report abandoning.",
+      "UC03 (Decreased) co-occurs with UC12 when a non-AI replacement is named, and with UC10 when the reason is distrust or discovered limitations."
+    ]
+  },
+  "verify_correctness": {
+    "codebook_file": "codebook_txt_ai_verify_correctness_pre_post.csv",
+    "columns": [
+      "txt_ai_verify_correctness_pre",
+      "txt_ai_verify_correctness_post"
+    ],
+    "question_text": "What, if anything, do you do to check whether an AI-generated response is correct?",
+    "selection": "multi",
+    "min_codes": 1,
+    "exclusive_codes": [
+      "E1",
+      "E2"
+    ],
+    "tier_rules": null,
+    "codes": [
+      {
+        "id": "A1",
+        "tier": null,
+        "category": "Independent Verification",
+        "name": "Re-Solves to Verify AI",
+        "description": "Student independently works the problem (by hand, with a calculator, or step-by-step on their own) in order to verify the AI's response after receiving it. Solving the problem oneself ALONG or USING the AI's provided steps still counts as A1 when the student produces their own work; add A2 only if they also describe reading through the AI's reasoning as a separate check.",
+        "do_not_apply_when": "The student only reads or follows the AI's printed steps without producing their own solution (-> A2). The student explicitly solved FIRST and uses AI as the checker (-> A5).",
+        "distinguish_from": "A2 (reading vs. re-deriving); A5 (direction of verification)",
+        "examples": "\"Try the question on my own\" \u2022 \"I redo it by hand\" \u2022 \"Do the problem and the math myself.\" \u2022 \"I usually check by doing the math\" \u2022 \"I solve the questions myself using the steps it gives me.\""
+      },
+      {
+        "id": "A2",
+        "tier": null,
+        "category": "Independent Verification",
+        "name": "Traces AI's Steps",
+        "description": "Student reads through, follows, or walks through the AI's reasoning/derivation to look for errors, without independently re-deriving the solution.",
+        "do_not_apply_when": "The student re-derives the solution themselves (-> A1). The student only judges whether the final answer seems reasonable (-> A3 or D1). The student solves the problem themselves using the AI's steps, producing their own work (-> A1).",
+        "distinguish_from": "A1; A3; C1c",
+        "examples": "\"I go through the steps and see if they look right\" \u2022 \"Walking through the process they gave\" \u2022 \"I go through its th[inking]\""
+      },
+      {
+        "id": "A3",
+        "tier": null,
+        "category": "Independent Verification",
+        "name": "Plausibility / Sanity Check",
+        "description": "Student describes an active plausibility judgment performed as a routine part of their workflow: common sense, physical intuition, units, magnitudes, directions.",
+        "do_not_apply_when": "Checking is described as conditional, rare, or triggered only by suspicion (-> D1). No judgment of any kind is described (-> D2). No plausibility criterion is named: a bare 'I make sure it's correct based on my knowledge' describes judging the solution content (-> A2, or D1 if conditional), not a distinct sanity check.",
+        "distinguish_from": "D1 (routine judgment vs. conditional/passive checking); A4; A2 (a named criterion such as units, magnitude, direction, or physical sense vs. general correctness judgment)",
+        "examples": "\"usual checks of units, magnitude, and direction\" \u2022 \"I try to think if the numbers make sense in the context of the [problem]\""
+      },
+      {
+        "id": "A4",
+        "tier": null,
+        "category": "Independent Verification",
+        "name": "Verifies Diagram / Problem Setup",
+        "description": "Student checks whether the AI correctly interpreted the problem inputs: the diagram or figure, geometry/positions, given values, or what is being asked.",
+        "do_not_apply_when": "The check concerns the AI's reasoning or arithmetic rather than its reading of the problem inputs (-> A2 or A1).",
+        "distinguish_from": "A2 (setup vs. solution steps)",
+        "examples": "\"check to see if it read the diagram correctly\" \u2022 \"I usually do a sanity check and check positions first because AI [misreads diagrams]\""
+      },
+      {
+        "id": "A5",
+        "tier": null,
+        "category": "Independent Verification",
+        "name": "Solves First, Uses AI as Checker",
+        "description": "Student's workflow is the reverse of A1: they complete the problem on their own FIRST, and the AI's role is to check the student's work.",
+        "do_not_apply_when": "The student solves in response to an AI answer in order to check the AI (-> A1), or the order is ambiguous (default -> A1).",
+        "distinguish_from": "A1 (who is checking whom)",
+        "examples": "\"I never copy directly -- I do everything out by hand and use AI to check my work rather than check the AI.\" \u2022 \"Usua[lly I solve first]\""
+      },
+      {
+        "id": "B1",
+        "tier": null,
+        "category": "External Cross-Reference",
+        "name": "Course Materials & Answer Keys",
+        "description": "Student checks the AI response against course-provided resources: lecture notes/slides, the course textbook, posted solutions or answer keys.",
+        "do_not_apply_when": "The resource is generic and not course-provided, e.g., Google or YouTube (-> B5). The student consults a person rather than materials (-> B2/B3).",
+        "distinguish_from": "B5 (course-provided vs. open web); B2",
+        "examples": "\"Compare with posted solutions from professors\" \u2022 \"answer key\" \u2022 \"I'll check the answer keys posted.\" \u2022 \"See if it c[orresponds with lecture notes]\""
+      },
+      {
+        "id": "B2",
+        "tier": null,
+        "category": "External Cross-Reference",
+        "name": "Instructor / TA Consultation",
+        "description": "Student verifies the AI response (or the discrepancy between their answer and the AI's) by consulting course staff: professor, TA, LA, office hours.",
+        "do_not_apply_when": "The people consulted are classmates or friends (-> B3).",
+        "distinguish_from": "B3 (course staff vs. peers)",
+        "examples": "\"I usually go office hours to check with TA and stick with my answers.\" \u2022 \"if I was not sure if the AI generated ans[wer was right I would ask the professor]\""
+      },
+      {
+        "id": "B3",
+        "tier": null,
+        "category": "External Cross-Reference",
+        "name": "Peer Comparison",
+        "description": "Student verifies by comparing answers or discussing the AI response with classmates, friends, or groupmates.",
+        "do_not_apply_when": "The person consulted is course staff (-> B2).",
+        "distinguish_from": "B2",
+        "examples": "\"Check it with my classmate and my own work\" \u2022 \"I check my answers with others to see if what they did was the same.\""
+      },
+      {
+        "id": "B4",
+        "tier": null,
+        "category": "External Cross-Reference",
+        "name": "Cross-Checks Other AI Models",
+        "description": "Student runs the same question through one or more DIFFERENT AI tools/models (or re-runs the same tool for a fresh, independent response) and compares.",
+        "do_not_apply_when": "The student pushes back within the same conversation with the same AI (-> C1a/C1b).",
+        "distinguish_from": "C1a/C1b (independent second source vs. same-conversation intervention)",
+        "examples": "\"I would ask multiple tools to do the same problem and compare answers\" \u2022 \"Cross validate across models\" \u2022 \"re-run t[he same question]\""
+      },
+      {
+        "id": "B5",
+        "tier": null,
+        "category": "External Cross-Reference",
+        "name": "Online Search",
+        "description": "Student uses open-web resources that are NOT course-provided: Google searches, YouTube solution videos, online databases.",
+        "do_not_apply_when": "The resource is course-provided (-> B1). The 'online' resource is another AI model (-> B4).",
+        "distinguish_from": "B1; B4",
+        "examples": "\"Look it up online to see if it makes sense\" \u2022 \"I place the answer on Google first to see if there is a match\""
+      },
+      {
+        "id": "C1a",
+        "tier": null,
+        "category": "Within-Conversation AI Strategies",
+        "name": "Direct Challenge / Error Flagging",
+        "description": "Student asserts to the AI that something is (or may be) wrong: points out a suspected mistake, supplies a correction, or pushes back on a specific step.",
+        "do_not_apply_when": "The student asks for a recheck without asserting an error (-> C1b). The student asks the AI to explain or justify its reasoning (-> C1c). The follow-up is generic ('I prompt further', 'I ask about it') without asserting an error or requesting a redo (-> C1c).",
+        "distinguish_from": "C1b; C1c (assertion vs. request vs. probe)",
+        "examples": "\"I will then, typically, prompt the AI thing with 'I think this should be 50 feet, not 40'\" \u2022 \"I've had many multi m[essage exchanges correcting it]\""
+      },
+      {
+        "id": "C1b",
+        "tier": null,
+        "category": "Within-Conversation AI Strategies",
+        "name": "Requests Re-Check / Redo",
+        "description": "Student asks the AI to double-check, verify, recheck, or redo its own work, without asserting that a specific error exists.",
+        "do_not_apply_when": "The student names a suspected error (-> C1a). The student switches to a different AI model (-> B4).",
+        "distinguish_from": "C1a; B4",
+        "examples": "\"Ask if it can double check.\" \u2022 \"If I get a different answer, I ask for it to recheck.\" \u2022 \"have the AI check through [its work]\""
+      },
+      {
+        "id": "C1c",
+        "tier": null,
+        "category": "Within-Conversation AI Strategies",
+        "name": "Probing Follow-Ups",
+        "description": "Student asks follow-up questions whose FUNCTION is to expose errors or test the AI's understanding, without directly asserting an error. Default code for generic, unspecified further prompting after a suspected issue ('if I find discontinuity, I prompt further') when the response does not state that an error was asserted (C1a) or a redo requested (C1b).",
+        "do_not_apply_when": "The follow-up is purely to learn or understand the concept for the student's own sake, with no verification function.",
+        "distinguish_from": "A2; C1a",
+        "examples": "\"Ask it to explain its answer in detail\" \u2022 \"I try to ask sub-questions to create manageable chunks for the AI\u2026 and I [check each chunk]\""
+      },
+      {
+        "id": "C2",
+        "tier": null,
+        "category": "Within-Conversation AI Strategies",
+        "name": "Verifies AI-Cited Sources",
+        "description": "Student asks the AI to provide sources or citations and then independently checks those specific sources for accuracy.",
+        "do_not_apply_when": "The student searches online for corroboration without reference to AI-provided citations (-> B5).",
+        "distinguish_from": "B5 (AI-provided citations vs. own search)",
+        "examples": "\"I usually have an AI provide me with sources which I check for accuracy.\" \u2022 \"I make sure to cross-reference with th[e sources it gives]\""
+      },
+      {
+        "id": "D1",
+        "tier": null,
+        "category": "Limited or No Verification",
+        "name": "Minimal / Conditional Verification",
+        "description": "Student describes checking that is conditional, rare, or passive: they check only when an answer seems off or surprising.",
+        "do_not_apply_when": "The judgment is described as a routine part of the workflow (-> A3). No checking of any kind is described (-> D2).",
+        "distinguish_from": "A3 (conditional/passive vs. routine); D2 (some checking vs. none)",
+        "examples": "\"Normally I only check if I think the answer doesn't align with what I've learned\" \u2022 \"I check\u2026 when the numbers seem [off]\""
+      },
+      {
+        "id": "D2",
+        "tier": null,
+        "category": "Limited or No Verification",
+        "name": "No Verification",
+        "description": "Student explicitly states they do not check AI responses at all, with no conditional or minimal checking described.",
+        "do_not_apply_when": "Any checking behavior is described, however minimal or conditional (-> D1 or A3). The student doesn't check because they don't use AI (-> E1).",
+        "distinguish_from": "D1; E1",
+        "examples": "\"I dont lmao\" \u2022 \"I do not check if the concepts the AI tool explains are correct.\" \u2022 \"I usually don't.\""
+      },
+      {
+        "id": "E1",
+        "tier": null,
+        "category": "Not Applicable",
+        "name": "Does Not Use AI",
+        "description": "Student states they do not use AI tools, or have not used AI in this course, so the verification question does not apply. STANDALONE: never combine with any other code.",
+        "do_not_apply_when": "The student uses AI but skips verification (-> D1/D2).",
+        "distinguish_from": "D2",
+        "examples": "\"I don't use AI\" \u2022 \"Haven't used AI in this course\" \u2022 \"I do not use AI.\" \u2022 \"I don't use it for mechanics\""
+      },
+      {
+        "id": "E2",
+        "tier": null,
+        "category": "Not Applicable",
+        "name": "Uncodable",
+        "description": "Response is blank, 'N/A', 'yes/no' with no elaboration, 'don't know yet', nonsensical, or otherwise contains no identifiable verification behavior. STANDALONE: never combine with any other code.",
+        "do_not_apply_when": "Any other code can be applied, even at low confidence (apply it and flag for review instead of discarding). The response describes how the student uses or adapts AI output (e.g., 'I use the AI methods, not its answers') -- code the described behavior (A/B/C/D codes) instead; describing use is codable content.",
+        "distinguish_from": "All codes (residual category only)",
+        "examples": "\"N/A\" \u2022 \"yeah\" \u2022 \"Yes.\" \u2022 \"don't know yet\" \u2022 \"Try to\" (truncated)"
+      }
+    ],
+    "extra_rules": [
+      "E1 (Does Not Use AI) and E2 (Uncodable) are standalone codes; never combine them with other codes.",
+      "If any other code can be applied even at low confidence, apply it and set flag_for_review rather than defaulting to E2."
+    ]
+  },
+  "workflow_steps": {
+    "codebook_file": "codebook_txt_ai_workflow_steps_pre_post.csv",
+    "columns": [
+      "txt_ai_workflow_steps_pre",
+      "txt_ai_workflow_steps_post"
+    ],
+    "question_text": "When you use AI tools for this course, what steps do you usually take from first question to final answer?",
+    "selection": "tiered",
+    "min_codes": 1,
+    "exclusive_codes": [
+      "WF08"
+    ],
+    "tier_rules": {
+      "T1": {
+        "min": 1,
+        "max": 1
+      },
+      "T2": {
+        "min": 0,
+        "max": null
+      }
+    },
+    "codes": [
+      {
+        "id": "WF01",
+        "tier": "T1",
+        "category": "Process Structure",
+        "name": "Self-Attempt First; Verify After",
+        "description": "Student completes work independently, then uses AI to verify/check/validate the finished work. AI is post-hoc validation, not mid-problem help.",
+        "do_not_apply_when": "AI is consulted DURING the attempt when the student gets stuck (-> WF02). The student describes repeated attempt-feedback cycles (-> WF04). If both verify-after and help-when-stuck are described, select the one presented as primary and set flag_for_review.",
+        "distinguish_from": "WF02 (post-hoc checking vs. mid-problem rescue); WF04; WF03 (if the student produces their own solution and compares it to AI-derived steps or equations, the dominant structure is WF01, with WF14/WF10 as Tier 2 steps, NOT WF03)",
+        "examples": "\"Solve myself first use AI to check work\" \u2022 \"I usually do the work myself and then use AI to double check it.\" \u2022 \"Answer by myself_ Ai to check if im unsure\" \u2022 \"I always do the work on my own, then use AI to check my answers.\" \u2022 \"I usually go through the question myself and see if I can derive the equations that it derived\" (WF01 dominant + WF10, WF14 in Tier 2)"
+      },
+      {
+        "id": "WF02",
+        "tier": "T1",
+        "category": "Process Structure",
+        "name": "Self-Attempt First; AI Help When Stuck",
+        "description": "Student attempts the problem independently FIRST and turns to AI only when stuck, confused, or unable to proceed; AI's role is mid-problem assistance (hints, explanations, next steps), after which the student resumes.",
+        "do_not_apply_when": "AI's role is checking completed work (-> WF01). The student starts with AI from the outset (-> WF03/WF05). Repeated multi-cycle refinement dominates (-> WF04).",
+        "distinguish_from": "WF01; WF03; WF04",
+        "examples": "\"First I try to solve on my own then ask AI for help when I get stuck or don't know what to do next\" \u2022 \"I attempt every problem myself without use of generative AI. If I am consistently lost or am unable to solve, I turn to AI for assistance.\" \u2022 \"I attempt the problem, then use AI for assistance if I am unsure how to continue.\""
+      },
+      {
+        "id": "WF03",
+        "tier": "T1",
+        "category": "Process Structure",
+        "name": "AI-Guided Step-by-Step",
+        "description": "Student uses AI in a forward-facing, sequential manner from the outset: AI explains or generates steps and the student learns/works through them in linear progression.",
+        "do_not_apply_when": "The student attempts independently before involving AI (-> WF01/WF02). The interaction involves cycles of revision and re-prompting (-> WF04). The student takes the answer without working through steps (-> WF05). The student merely REQUESTS steps/formulas within another structure, or produces their own work and compares to AI steps (-> the true dominant Tier 1 code, with WF10 as the Tier 2 step). The student names only a narrow use with no sequential process described (-> WF22).",
+        "distinguish_from": "WF02; WF04; WF05 (working through steps vs. taking the answer); WF10 (WF03 is the Tier 1 structure when following AI-provided steps IS the workflow from the outset; WF10 is the Tier 2 act of requesting steps and can co-occur with ANY Tier 1 code); WF22",
+        "examples": "\"I usually ask the AI the step by step process for the question, I then go through it myself while checking step by step.\" \u2022 \"Input the question, follow the steps, and replicate the process myself while referring to class notes\""
+      },
+      {
+        "id": "WF04",
+        "tier": "T1",
+        "category": "Process Structure",
+        "name": "Iterative Refinement",
+        "description": "Multiple cycles of attempt-feedback-revision or dialogue-based refinement: the student returns to and revises previous work, or engages in multiple rounds of AI requests/prompt refinement to converge on understanding.",
+        "do_not_apply_when": "A single consult resolves the issue (-> WF02) or a single linear walkthrough is described (-> WF03).",
+        "distinguish_from": "WF02; WF03 (cycles vs. one-pass)",
+        "examples": "\"I upload the problem I am trying to solve, and then I refine my input to have the software only respond to the specific question I am asking\" \u2022 \"will have a back-and-forth with the AI on how to solve\" \u2022 \"I solve each step myself, and when my answer is different than given, I prompt it with my answer and ask it what is different\""
+      },
+      {
+        "id": "WF05",
+        "tier": "T1",
+        "category": "Process Structure",
+        "name": "One-Shot Answer Generation",
+        "description": "Student inputs the problem and takes the AI's answer/solution directly, with no independent attempt, no stepwise working-through, and no iteration described.",
+        "do_not_apply_when": "The student works through or replicates the AI's steps (-> WF03). Any independent attempt precedes AI use (-> WF01/WF02).",
+        "distinguish_from": "WF03 (taking output vs. learning through steps)",
+        "examples": "\"I copy and paste problems and send them through AI to solve it and show me the steps in detail.\" \u2022 \"screenshot and then paste\" \u2022 \"I submit the question into the AI and ask for how to solve it.\""
+      },
+      {
+        "id": "WF06",
+        "tier": "T1",
+        "category": "Process Structure",
+        "name": "Non-Use / No Attempt",
+        "description": "Explicit statement that the student does not use AI for this course, or does not attempt to. STANDALONE: select no Tier 2 codes (exception: WF18/WF19 may be applied when a limitation or distrust is stated as the reason for non-use).",
+        "do_not_apply_when": "The student uses AI rarely but describes a workflow for when they do (code that workflow).",
+        "distinguish_from": "WF08 (an explicit non-use statement is codable, not noise)",
+        "examples": "\"I don't use AI for this class.\" \u2022 \"I didn't use AI\" \u2022 \"I never use AI.\" \u2022 \"I found that LLMs were incapable of understanding the geometry of questions... For this reason I avoided using them\" (WF06 + WF18 + WF19)"
+      },
+      {
+        "id": "WF22",
+        "tier": "T1",
+        "category": "Process Structure",
+        "name": "Targeted Single-Purpose Use",
+        "description": "Student names only a narrow, specific use of AI (e.g., concept reminders, debugging code, formula lookup) WITHOUT describing any sequential process from question to answer. The response describes what AI is for, not a workflow. Co-code the matching Tier 2 codes (often WF09, WF17).",
+        "do_not_apply_when": "Any sequential process is described, however brief (-> WF01-WF05). The student states they do not use AI (-> WF06).",
+        "distinguish_from": "WF03 (no step sequence described vs. following steps as the workflow); WF06 (narrow use vs. no use); WF07 (a nameable single-purpose use vs. an unclassifiable process)",
+        "examples": "\"So far I have only used them to help remind me of concepts from previous physics classes.\" \u2022 \"Only used to debug matlab code. Sucks theoretical.\""
+      },
+      {
+        "id": "WF07",
+        "tier": "T1",
+        "category": "Process Structure",
+        "name": "Other Process Structure",
+        "description": "A codable overall process structure is described but none of WF01-WF06 fits. Describe the structure in the notes field.",
+        "do_not_apply_when": "Any of WF01-WF06 or WF22 fits, even at low confidence (apply it and flag instead). The student names only a narrow, single-purpose use with no process described (-> WF22).",
+        "distinguish_from": "WF01-WF06, WF22 (residual only)",
+        "examples": "(residual; describe in notes)"
+      },
+      {
+        "id": "WF08",
+        "tier": "T1",
+        "category": "Uncodable",
+        "name": "Irrelevant / Noise",
+        "description": "Responses that provide no codable data: 'N/A', blank, nonsensical, or failing to address the prompt. STANDALONE: select no Tier 2 codes.",
+        "do_not_apply_when": "Any other Tier 1 code can be applied, even at low confidence (apply it and flag instead).",
+        "distinguish_from": "WF06 (no codable content vs. explicit non-use)",
+        "examples": "\"c\" \u2022 \"no\" \u2022 \"Solve along\" \u2022 \"The process in solving the questions\""
+      },
+      {
+        "id": "WF09",
+        "tier": "T2",
+        "category": "Conceptual Understanding & Explanation",
+        "name": "Concept Explanation Request",
+        "description": "Student asks AI to explain concepts, theories, underlying principles, or abstract ideas: breaking down complex topics, simplifying, or clarifying examples. Focus on deepening comprehension of WHAT and WHY.",
+        "do_not_apply_when": "The request is for HOW-to procedures, formulas, or sequential solution steps (-> WF10).",
+        "distinguish_from": "WF10 (what/why vs. how); WF12 (explanation vs. hints toward an answer)",
+        "examples": "\"I only ask it to explain a topic for me\" \u2022 \"I usually have it explain concepts\" \u2022 \"I use AI to explain or expand on a problem/concept if I don't understand where to start.\""
+      },
+      {
+        "id": "WF10",
+        "tier": "T2",
+        "category": "Procedural Learning & Problem-Solving Steps",
+        "name": "Procedure/Steps Request",
+        "description": "Student asks AI for step-by-step procedures, equations, formulas, algorithms, methods, or sequential solutions: HOW to execute a process.",
+        "do_not_apply_when": "The request is for conceptual understanding (-> WF09) or for hints/partial guidance rather than the full procedure (-> WF12).",
+        "distinguish_from": "WF09; WF12; Tier 1 WF03 (WF10 marks the request itself, at the step level, and co-occurs with any Tier 1 structure; it does not imply the workflow is AI-guided)",
+        "examples": "\"Ask it to lay down the stpes and equations\" \u2022 \"I usually just ask it for formulas, never to solve actual problems\" \u2022 \"Ask it to generate a list of steps to take to approach a problem\""
+      },
+      {
+        "id": "WF11",
+        "tier": "T2",
+        "category": "Procedural Learning & Problem-Solving Steps",
+        "name": "Procedural Memorization & Practice",
+        "description": "Student uses AI to memorize, internalize, drill, or practice procedures: flashcards, generated practice problems, quizzing, repetition toward fluency.",
+        "do_not_apply_when": "A procedure is requested once to solve a specific problem (-> WF10).",
+        "distinguish_from": "WF10 (drilling for fluency vs. one-time how-to)",
+        "examples": "\"The process of how to solve and memorize the steps simply.\" \u2022 \"ask AI to generate a synopsis review of the topic, and to occasionally generate practice problems or example problems for me to review\" \u2022 \"ask AI for similar but different [problems]\""
+      },
+      {
+        "id": "WF12",
+        "tier": "T2",
+        "category": "Procedural Learning & Problem-Solving Steps",
+        "name": "Guided Inquiry / Hints",
+        "description": "Student asks AI for hints, guiding questions, leading prompts, or partial guidance rather than direct answers or full solutions; Socratic-style interaction intended to prompt thinking.",
+        "do_not_apply_when": "The full procedure or solution is requested (-> WF10). The student describes constraining the prompt as a tactic without a hint-seeking goal (-> WF20; the two frequently co-occur; apply both when hints are sought via explicit constraints).",
+        "distinguish_from": "WF10; WF20 (pedagogical goal vs. prompt tactic)",
+        "examples": "\"I would usually tell AI to give me hints to help me get started with the question.\" \u2022 \"not giving me the answers, but asking me at each point what I think the next step should be.\" \u2022 \"Usually ask for hints but not for answers\""
+      },
+      {
+        "id": "WF13",
+        "tier": "T2",
+        "category": "Verification, Checking, & Error Correction",
+        "name": "Answer/Result Verification",
+        "description": "Student checks whether their FINAL answer or result is correct by comparing to AI's answer or having AI verify it. Quick 'is this right?' on the end product, not the process.",
+        "do_not_apply_when": "Steps/methodology are compared, not just the final answer (-> WF14). The student asks AI to diagnose WHY they were wrong (-> WF15).",
+        "distinguish_from": "WF14 (final answer vs. step comparison); WF15",
+        "examples": "\"I only use AI tools to check my final answer if used.\" \u2022 \"I also then compare my final answer to the AI answer.\" \u2022 \"Checking FBD or checking only my final answer with it\""
+      },
+      {
+        "id": "WF14",
+        "tier": "T2",
+        "category": "Verification, Checking, & Error Correction",
+        "name": "Comparative Step-by-Step Verification",
+        "description": "Student solves independently, then reviews the AI's step-by-step solution to compare reasoning/methodology, examining HOW each step was done and where they match or differ.",
+        "do_not_apply_when": "Only the final answer is compared (-> WF13). The AI is asked to find/explain the student's error (-> WF15).",
+        "distinguish_from": "WF13; WF15 (student compares vs. AI diagnoses)",
+        "examples": "\"I go through its thinking process and compare it with my own.\" \u2022 \"Do a hwk problem by myself, ask an ai engine to do the problem, compare answers and ask if anything doesn't match\" \u2022 \"I usually attempt a problem and then run it through AI to see if we agree on the steps to solve.\""
+      },
+      {
+        "id": "WF15",
+        "tier": "T2",
+        "category": "Verification, Checking, & Error Correction",
+        "name": "Error Diagnosis / Troubleshooting",
+        "description": "Student asks AI to identify and explain how and why errors occurred in the STUDENT'S work: root-cause analysis, debugging, locating where logic broke down.",
+        "do_not_apply_when": "The student locates differences themselves by comparison (-> WF14) or only checks whether the answer is right (-> WF13).",
+        "distinguish_from": "WF13; WF14",
+        "examples": "\"I'll ask the AI to look at my work and point out where the mistake is\" \u2022 \"I usually use it to find errors in my process when solving a question and getting it wrong.\" \u2022 \"i take a photo of it and ask chat what I might have done wrong\""
+      },
+      {
+        "id": "WF16",
+        "tier": "T2",
+        "category": "Verification, Checking, & Error Correction",
+        "name": "Accuracy Verification Against External Sources",
+        "description": "Student verifies correctness by comparing AI output against external authoritative sources: textbook, lecture notes, posted solutions, class problems. (Scope note: this codes verification steps mentioned within the workflow question; the verify_correctness codebook applies only to the verification question.)",
+        "do_not_apply_when": "Verification is against the student's own work (-> WF13/WF14).",
+        "distinguish_from": "WF13/WF14 (external source vs. own work)",
+        "examples": "\"once I think through its answer I often verify with the textbook and my own understanding\" \u2022 \"I then would see if AI answer was correct by comparing them to in class problems\""
+      },
+      {
+        "id": "WF17",
+        "tier": "T2",
+        "category": "Strategic Approach & Conditional Use",
+        "name": "Conditional / Context-Dependent Use",
+        "description": "Student explicitly describes conditions, boundaries, or contexts under which they use AI differently: only for certain topics, task types, or situations.",
+        "do_not_apply_when": "The condition is simply 'when stuck' (that is Tier 1 WF02, not a Tier 2 step).",
+        "distinguish_from": "Tier 1 WF02 (topic/task boundaries vs. attempt-first fallback)",
+        "examples": "\"Only used to debu[g] matlab code. Sucks theoretical.\" \u2022 \"I rarely use AI for this course since most have issues with diagrams. I primarily use it for explaining concepts\""
+      },
+      {
+        "id": "WF18",
+        "tier": "T2",
+        "category": "Tool Limitations & Workarounds",
+        "name": "Diagram / Visual Content Interpretation Issues",
+        "description": "Student describes AI's inability or limitations in interpreting diagrams, schematics, images, or geometry, including workarounds (describing the figure in words, verifying the AI's reading of the figure).",
+        "do_not_apply_when": "General distrust is expressed without reference to visual/diagram content (-> WF19).",
+        "distinguish_from": "WF19 (specific visual limitation vs. general distrust)",
+        "examples": "\"figure out how to turn the image into words cause the ai struggles reading images but it understands words\" \u2022 \"LLMs were incapable of understanding the geometry of questions\" \u2022 \"ask it to explain what it is seeing so I know it's interpreting the problem correctly\""
+      },
+      {
+        "id": "WF19",
+        "tier": "T2",
+        "category": "Critical Evaluation & Trust",
+        "name": "Skepticism / Distrust of AI Outputs",
+        "description": "Student expresses doubt, caution, or distrust about the reliability of AI outputs, including mentions of hallucination or frequent errors.",
+        "do_not_apply_when": "The doubt is specifically about diagram/visual interpretation (-> WF18; apply both when both general and visual distrust appear).",
+        "distinguish_from": "WF18",
+        "examples": "\"I don't really use it for mechanics because I dont trust it\" \u2022 \"but the AI sometimes gives me wrong answers\" \u2022 \"trying to stop the ai hallucinations\""
+      },
+      {
+        "id": "WF20",
+        "tier": "T2",
+        "category": "Prompting Strategy",
+        "name": "Prompt Specification & Constraint Setting",
+        "description": "Student describes deliberately structuring or constraining prompts: withholding the answer request, instructing AI not to solve fully, specifying context/topic, isolating a sub-question, or refining inputs to control output.",
+        "do_not_apply_when": "The prompt tactic is not described (a plain 'I ask it to explain' is WF09/WF10, not WF20).",
+        "distinguish_from": "WF12 (constraining output as tactic vs. hint-seeking as goal; apply both when constraints serve hint-seeking)",
+        "examples": "\"I tell AI to not solve everything\" \u2022 \"I make sure it doesn't give me the answer but how to start the problem\" \u2022 \"specify to the LLM that I want to walk through the task rather than receive an immediate answer\" \u2022 \"prompt the AI by telling it what topic the problem belongs to\""
+      },
+      {
+        "id": "WF21",
+        "tier": "T2",
+        "category": "Other",
+        "name": "Other / Idiosyncratic Step",
+        "description": "A specific, codable process step is described but no Tier 2 code fits. Describe it in the notes field.",
+        "do_not_apply_when": "Any other Tier 2 code fits, even at low confidence (apply it and flag instead).",
+        "distinguish_from": "WF09-WF20 (residual only)",
+        "examples": "\"it is to provide me with YouTube videos to help solidify my understanding of concepts\" (AI as resource-finder)"
+      }
+    ],
+    "extra_rules": [
+      "Select exactly one Tier 1 code for the DOMINANT overall process structure, then all Tier 2 step codes that apply.",
+      "Tie-break: if two structures are described, select the one covering the larger share of the described workflow and set flag_for_review.",
+      "If Tier 1 is WF06 (Non-Use) select Tier 2 codes only when a limitation or distrust (WF18/WF19) is the stated reason for non-use; if Tier 1 is WF08 (Noise), select no Tier 2 codes."
+    ]
+  }
+}

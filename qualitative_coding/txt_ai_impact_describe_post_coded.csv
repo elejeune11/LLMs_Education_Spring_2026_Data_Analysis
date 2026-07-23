@@ -1,0 +1,101 @@
+StudyID,txt_ai_impact_describe_post,Tier_1_Category,Tier_1_Code,Tier_2_Codes
+100001,"Positive, I have received help outside of class when I could not attend office hours.",Overall Sentiment,Positive Impact,On-Demand Accessibility
+100003,"Positive, very helpful on truss project",Overall Sentiment,Positive Impact,
+100004,Positive,Overall Sentiment,Positive Impact,
+100005,Neutral. Neither helped drastically or hindered me drastically.,Overall Sentiment,Neutral / No Impact,
+100006,It's helped me go over concepts. probably positivev,Overall Sentiment,Positive Impact,Concept Clarification
+100007,It has been very helpful.,Overall Sentiment,Positive Impact,
+100008,pretty helpful.,Overall Sentiment,Positive Impact,
+100009,"I would have preferred to spend the ""AI"" sections of the class doing more examples/getting taught more. The class moves quickly as it is, and I would've appreciated extra time to learn with the professor. Often, the demos didn't aid in our understanding of the content and that left me feeling more confused when I got to the homework.",Overall Sentiment,Negative Impact,"Pedagogical Misalignment, Other / Idiosyncratic"
+100010,neutral,Overall Sentiment,Neutral / No Impact,
+100011,"It honestly hasn't made much of an impact, I haven't used AI much.",Overall Sentiment,Neutral / No Impact,
+100012,Not useful theoretically,Overall Sentiment,Neutral / No Impact,
+100013,"It didn't really affect my learning much. I would say my own personal effort affected my learning the most. Whether I used AI help or not, my understanding fully depended on my effort to try and understand the topics.",Overall Sentiment,Neutral / No Impact,
+100014,"neutral. AI has been great when im stuck and I need to save time with my large workload and I feel like I need a ""tutor"" to help me through problems (less tutor as it isnt as good as one may be). It has diminished problem solving skills as I sometimes lean on it too much when I get stuck however it is helpful to understand basic workflows.",Overall Sentiment,Mixed Impact,"Concept Clarification, On-Demand Accessibility, Cognitive Reliance"
+100015,"I think AI tools are really helpful for learning STEM subjects, especially outside of office hours when I can not access help. While AI isn't always correct about the final answer, the process used tends to be correct and helps me learn the subject matter.",Overall Sentiment,Positive Impact,"Concept Clarification, On-Demand Accessibility, Technical Failure"
+100016,Helped me understand some challenging topics,Overall Sentiment,Positive Impact,Concept Clarification
+100017,It is able to teach a concept last minute if I am still confused,Overall Sentiment,Positive Impact,"Concept Clarification, On-Demand Accessibility"
+100018,Positive,Overall Sentiment,Positive Impact,
+100019,"I think overall it has a positive impact, it helped a lot when I needed it and I like that I can always ask follow up questions.",Overall Sentiment,Positive Impact,On-Demand Accessibility
+100020,It have definitely helped me learn to solve problems especially when i missed a class. it also helps me find shortcuts and explains very well. I do think that I depend in it too much sometimes which makes e think i know the content but i really don't.,Overall Sentiment,Positive Impact,"Concept Clarification, On-Demand Accessibility, Cognitive Reliance"
+100021,Incredibly positive for reinforcing learnings from lectures and working through homework and practice problems.,Overall Sentiment,Positive Impact,Concept Clarification
+100022,Positive,Overall Sentiment,Positive Impact,
+100023,"Very positive for helping me understand course material better, and also for studying and making more practice problems. Gemini in particular also recommends helpful YouTube videos that show a real person manually doing similar problems. I will say that there are much better videos YouTube for mechhanics in particular so i generally start there before going to AI if i have questions.",Overall Sentiment,Positive Impact,"Concept Clarification, Other / Idiosyncratic"
+100024,It definitely helps and is much more accessible and less time consuming then having to go to oh or discussion,Overall Sentiment,Positive Impact,On-Demand Accessibility
+100025,"Very  positive, eased the frustration gap while also allowing me to learn with assistance.",Overall Sentiment,Positive Impact,Affective / Confidence Support
+100026,I think it's neither negative or positive.,Overall Sentiment,Neutral / No Impact,
+100027,Probably slightly positive. It has sometimes been helpful in understanding and solving through certain problems.,Overall Sentiment,Positive Impact,Concept Clarification
+100028,They help explain the concepts and steps for solving problems,Overall Sentiment,Positive Impact,Concept Clarification
+100029,"I'd say positive. It's helpful to have something that can explain concepts (like a TA), but at any time. It's not as useful or good as a TA or professor, but when working outside of office hours time, it's very helpful.",Overall Sentiment,Positive Impact,"Concept Clarification, On-Demand Accessibility"
+100030,"In this course specifically, I would argue AI has been overall positive, however, I use it very infrequently.",Overall Sentiment,Positive Impact,
+100031,Neutral,Overall Sentiment,Neutral / No Impact,
+100032,"Very positive, i can ask what I want when I want as many times as I want it and get a response in less than a second",Overall Sentiment,Positive Impact,On-Demand Accessibility
+100033,Neutral,Overall Sentiment,Neutral / No Impact,
+100034,Neutral u can use for good or bad,Overall Sentiment,Neutral / No Impact,Method-Dependent
+100035,I think that it has been a positive supplement to the lectures.,Overall Sentiment,Positive Impact,
+100036,"Specifically for mechanics, AI can easily get a question wrong, I think it is more useful for explaining the bigger question, rather than making it solve problems.",Overall Sentiment,Mixed Impact,"Concept Clarification, Technical Failure"
+100037,Better,Overall Sentiment,Positive Impact,
+100038,Positive,Overall Sentiment,Positive Impact,
+100039,"Positive in functioning as somewhat like a personal tutor, perhaps negative for times I feel like not engaging with the AI and allowing it to answer questions, weakening my problem solving skills.",Overall Sentiment,Mixed Impact,"Concept Clarification, Cognitive Reliance"
+100040,"Neutral, I gave up on using ai very early on in this course",Overall Sentiment,Neutral / No Impact,
+100041,I would describe the impact of AI tools as positive because it helped me to understand the course better and some of the specific topics I had a hard time with.,Overall Sentiment,Positive Impact,Concept Clarification
+100042,positive,Overall Sentiment,Positive Impact,
+100043,They are very positive because they help me learn by teaching me and answering questions that I have.,Overall Sentiment,Positive Impact,Concept Clarification
+100044,"I think AI could be useful in this course in understanding concepts important to applying them to a problem, but it also can be negative in a way since it can confuse you in the way you approach a problem and solve a question. Many times the answer that ai provided can completely wrong.",Overall Sentiment,Mixed Impact,"Concept Clarification, Technical Failure, Pedagogical Misalignment"
+100045,"Positive because I can get it to explain it to me in a way where I understand it, whereas TAs/LAs/Professors sometimes have a hard time grasping what aspect of a question students dont understand.",Overall Sentiment,Positive Impact,Concept Clarification
+100046,"Positive when self studying prior to lecture and studying for exams as I try to do as many practice problems as possible so I get a feel of different prompts. Sometimes there are no answers for the questions in the textbook, in which I prompt AI to check my work.",Overall Sentiment,Positive Impact,Step Verification
+100048,I say AI had little impact overall in this course.,Overall Sentiment,Neutral / No Impact,
+100049,"Positive impact: Convenience, easier access to information_x000D_
+Negative impact: may sometimes take advantage of the convenience of AI, may rely on it for simple answers instead of actively engaging in the process of looking for answers through textbooks",Overall Sentiment,Mixed Impact,"On-Demand Accessibility, Cognitive Reliance"
+100050,positive or non applicable,Overall Sentiment,Positive Impact,
+100051,I think AI tools are very positive and can help you see problems different ways. They can usually scrape the internet for ways other people describe the problem which can help.,Overall Sentiment,Positive Impact,Concept Clarification
+100052,"Although AI can be incorrect sometimes, it's helpful to remind me of steps or methods that I may have forgotten from lecture",Overall Sentiment,Positive Impact,"Concept Clarification, Technical Failure"
+100053,"I would say overall positive in understanding concepts but maybe negative in being able to solve the problems on my own as I would get used to ""someone else"" generating the first step for me. I can usually work out the middle and final steps on my own, but need to be careful about having AI start things for me",Overall Sentiment,Positive Impact,"Concept Clarification, Cognitive Reliance"
+100054,it's alright ai is not that good at mechanics but very useful for concept heavy class,Overall Sentiment,Mixed Impact,"Concept Clarification, Technical Failure"
+100055,"positive, the lectures are very unhelpful for me because its not my learning style",Overall Sentiment,Positive Impact,Other / Idiosyncratic
+100056,Positive in helping me understand steps in problems that I did not fully grasp in class.,Overall Sentiment,Positive Impact,Concept Clarification
+100057,neutral,Overall Sentiment,Neutral / No Impact,
+100058,Positive because it reinforces topics,Overall Sentiment,Positive Impact,Concept Clarification
+100059,"I am neutral on this because the AI tools were sometimes helpful, but sometimes harmful. This is because the AI tools so far have lack of ability to correctly analyze the images of mechanics problems. Moreover, mechanics problems are the problems that students are very easy to make mistake, and this applies to the AI same. Thus, it is a good for reference, but not to actually check process.",Overall Sentiment,Mixed Impact,"Technical Failure, Method-Dependent"
+100060,Helps me study better as I can take on a larger volume of problems.,Overall Sentiment,Positive Impact,On-Demand Accessibility
+100061,Its overall positive as it can be a good teacher and makes checking for mistakes easier without having to wait for the posted answers.,Overall Sentiment,Positive Impact,"Concept Clarification, Step Verification, On-Demand Accessibility"
+100062,I didn't use AI,Not Applicable,Does Not Use AI,
+100063,"Overall neutral, negative when it just gave the answer when needed as well as positive when it taught things from a different perspective than was taught in class.",Overall Sentiment,Neutral / No Impact,"Concept Clarification, Pedagogical Misalignment"
+100064,"nuetral, they were sometimes necessary in the moment but i would have prefered to be taugh by an educated person to know that i wasnt being misled",Overall Sentiment,Neutral / No Impact,"On-Demand Accessibility, Technical Failure"
+100065,Negative. I think it's better not to use it as it hinders effective learning and deep thinking.,Overall Sentiment,Negative Impact,Cognitive Reliance
+100066,"Positive, it has helped clarify confusing topics and I can use it to cross reference my knowledge",Overall Sentiment,Positive Impact,"Concept Clarification, Step Verification"
+100067,,Uncodable,Irrelevant / Noise,
+100068,"Positive impact for sure, just access to tools to check work and help with confusion while working alone is so valuable when trying to be efficient",Overall Sentiment,Positive Impact,"Concept Clarification, Step Verification, On-Demand Accessibility"
+100069,"I would say it's mostly positive. It helps me reinforce the concepts, and additionally helped me quite a bit during the truss project, when I couldn't afford to learn MATLAB coding all over again in a short period of time.",Overall Sentiment,Positive Impact,"Concept Clarification, On-Demand Accessibility"
+100070,"Pretty bad honestly. AI tools are only able to pull together tips for solving mechanics problems based on online resources, which are mixed and nonspecific. It frequently misinterprets the problems and gives confusing answers.",Overall Sentiment,Negative Impact,"Technical Failure, Pedagogical Misalignment"
+100071,Positive,Overall Sentiment,Positive Impact,
+100072,Minimal impact,Overall Sentiment,Neutral / No Impact,
+100073,Positive.,Overall Sentiment,Positive Impact,
+100074,Negative,Overall Sentiment,Negative Impact,
+100075,Neutral,Overall Sentiment,Neutral / No Impact,
+100076,I would say somewhat positive.,Overall Sentiment,Positive Impact,
+100077,"I think it is positive for learning things when used correctly, but it can also easily have a negative impact if you use it to cut corners when solving problems. For example, if you just copy an answer from an AI without thinking, that has a negative effect on your learning.",Overall Sentiment,Mixed Impact,Method-Dependent
+100078,Non-impactful,Overall Sentiment,Neutral / No Impact,
+100079,"Helped a lot because I have been confused by how the material has been taught in class. It's been very helpful there, but also negative when I am running out of time and just need answers from it, then I don't learn as much.",Overall Sentiment,Mixed Impact,"Concept Clarification, Cognitive Reliance"
+100080,"Positive, but not beacuse of the demos.",Overall Sentiment,Positive Impact,
+100081,"I would describe it as highly positive when I was trying to solve questions, it would break it down into diagrams and stuff like that.",Overall Sentiment,Positive Impact,Concept Clarification
+100082,It had both positive and negative where applicable. It helped with clarifying the truss project since it felt too complex at times.,Overall Sentiment,Mixed Impact,Concept Clarification
+100083,AI resolved most of my knowledge misconceptions.,Overall Sentiment,Positive Impact,Concept Clarification
+100084,"I think that it has been positive, as it often acts like a tutor for me.",Overall Sentiment,Positive Impact,Concept Clarification
+100085,"Very positive, helps break problems down into steps for me to solve if I'm struggling.",Overall Sentiment,Positive Impact,Concept Clarification
+100086,"Positively, they make it easy to verify my work and see where I may have gone wrong. Negatively, it is not always helpful with actually learning the material.",Overall Sentiment,Mixed Impact,Step Verification
+100087,"I think its really positive cause it acts as a sort of TA or professor almost because it can answer specific questions I have that a textbook or google could not, but yeah sometimes since its an AI the hard part is figuring out how to apply that answer on paper, like for example a professor would tell you to use a FBD diagram whenever you can but with an AI you would probably have to tell the AI to instruct you using an FBD since it sometimes glosses over that and as an actual person its harder to do the question like that. AI is also bad sometimes because it makes you think you know what you are doing, but if you don't have mastery over the problems entirely by yourself at some point you are setting yourself up for failure.",Overall Sentiment,Positive Impact,"Concept Clarification, Cognitive Reliance, Pedagogical Misalignment"
+100088,It explains concepts very thoroughly to me. I take a lot longer than most to understand engineering concepts so it is very positive for me.,Overall Sentiment,Positive Impact,Concept Clarification
+100089,Positive,Overall Sentiment,Positive Impact,
+100090,"AI is helpful in explaining concepts when they become unclear in class, but when it comes to doing homework and preparing for exams, it takes away from the learning experience",Overall Sentiment,Mixed Impact,"Concept Clarification, Cognitive Reliance"
+100091,I think they have been positive. I am unable to attend OH and so it allows me to ask analytical questions of the material and gain real time responses.,Overall Sentiment,Positive Impact,"Concept Clarification, On-Demand Accessibility"
+100092,Neither positive nor negative. I hadn't even thought a topic was too confusion to teach myself so I never used ai to assist me,Not Applicable,Does Not Use AI,
+100096,I think AI tools have helped me learn parts of the course that I was struggling with as it gave me an ability to ask questions over and over.,Overall Sentiment,Positive Impact,"Concept Clarification, On-Demand Accessibility"
+100097,I think its positive if used correctly,Overall Sentiment,Positive Impact,Method-Dependent
+100098,I haven't used AI in EK 301,Not Applicable,Does Not Use AI,
+100099,"Positive, helped me with part I was unsure about.",Overall Sentiment,Positive Impact,Concept Clarification
+100100,Positive cause it can help in some cases if you are confused on something.,Overall Sentiment,Positive Impact,Concept Clarification
+100102,Both - when wrong negative but positive wjen right,Overall Sentiment,Mixed Impact,Technical Failure
+100103,I think AI tools were helpful for quick questions but didn't help me in the hardcore learning.,Overall Sentiment,Mixed Impact,On-Demand Accessibility
+100104,"It is both positive and negative on my learning. I get step by step explainations on the problem and helps me learn that way, however, there are times when I am in a time crunch and I tend to rush my work and not learn from my mistakes.",Overall Sentiment,Mixed Impact,"Concept Clarification, Cognitive Reliance"
+100105,"It helps answer specific questions I have, and it allows me to receive help outside of classtime/OH which is very convenient. However, it does make some things more confusing at times because the AI will solve it in a particular way that we didn't learn in class.",Overall Sentiment,Mixed Impact,"Concept Clarification, On-Demand Accessibility, Pedagogical Misalignment"

@@ -1,0 +1,109 @@
+StudyID,txt_ai_workflow_steps_pre,Tier_1_Category,Tier_1_Code,Tier_2_Codes
+100001,I have not used AI tools yet for this course.,Process Structure,Non-Use / No Attempt,
+100002,,Uncodable,Irrelevant / Noise,
+100003,"I like to see how AI approaches the problem, then I like to actually solve it on my own",Process Structure,AI-Guided Step-by-Step,Procedure/Steps Request
+100004,The process in solving the questions,Uncodable,Irrelevant / Noise,
+100005,Usually I only require the first steps to start the problem.,Process Structure,Targeted Single-Purpose Use,Guided Inquiry / Hints
+100006,c,Uncodable,Irrelevant / Noise,
+100007,I usually go through the question myself and see if I can derive the equations that it derived,Process Structure,Self-Attempt First; Verify After,"Procedure/Steps Request, Comparative Step-by-Step Verification"
+100008,,Uncodable,Irrelevant / Noise,
+100009,"If I find myself stuck on a homework problem (usually after one or two failed attempts), I will ask AI for a step-by-step solution. I will try solving it all the way through with the hint from step one, and repeat if I find myself stuck again.",Process Structure,Self-Attempt First; AI Help When Stuck,"Procedure/Steps Request, Other / Idiosyncratic Step"
+100010,no,Uncodable,Irrelevant / Noise,
+100011,"I would paste a question into an AI tool and ask for hints or solutions if I'm really confused or unsure. However, I haven't really had to do this yet in this course. I've only used it for double checking so far.",Process Structure,Self-Attempt First; Verify After,Answer/Result Verification
+100012,,Uncodable,Irrelevant / Noise,
+100013,I work th4ough the question myself first. Then check my work with Ai to see if there was anything I may have missed. Otherwise if I am really stuck i ask Ai for a hint in how to get started.,Process Structure,Self-Attempt First; Verify After,"Guided Inquiry / Hints, Error Diagnosis / Troubleshooting"
+100014,I attempt the problem first if I get stuck I will ask Ai for help only in finding the path towards solving the problem specifically asking it not to solve the entire problem. Additionally I will use it to check my answers,Process Structure,Self-Attempt First; AI Help When Stuck,"Guided Inquiry / Hints, Answer/Result Verification, Prompt Specification & Constraint Setting"
+100015,"I ask about the concept instead of asking the specific problem. The AI tool will use demonstrative variables or quick examples to explain the concept,  which allows me to try solving the actual problem independently.",Process Structure,Other Process Structure,"Concept Explanation Request, Prompt Specification & Constraint Setting"
+100016,I would usually tell AI to give me hints to help me get started with the question.,Process Structure,Targeted Single-Purpose Use,Guided Inquiry / Hints
+100017,I use AI to explain or expand on a problem/concept if I don't understand where to start.,Process Structure,Targeted Single-Purpose Use,Concept Explanation Request
+100018,I simply haven't used AI in this class till now so I can't help with this question,Process Structure,Non-Use / No Attempt,
+100019,I have not yet used AI for this course,Process Structure,Non-Use / No Attempt,
+100020,I'm only use it for the steps.,Process Structure,Targeted Single-Purpose Use,Procedure/Steps Request
+100021,So far I have only used them to help remind me of concepts from previous physics classes.,Process Structure,Targeted Single-Purpose Use,Concept Explanation Request
+100022,"Try the problem on own until get stuck, ask ai about problem and what to do from that point, take what it says and apply to current problem. If particularly difficult, ask AI for similar but different problem then repeat until I understand the concepts at work.",Process Structure,Self-Attempt First; AI Help When Stuck,"Procedure/Steps Request, Procedural Memorization & Practice"
+100023,Usually try to do problem first then ask for help if needed for specific steps or hints when stuck.,Process Structure,Self-Attempt First; AI Help When Stuck,"Procedure/Steps Request, Guided Inquiry / Hints"
+100024,Copy past question then see the method used then find method and apply it yourself,Process Structure,AI-Guided Step-by-Step,Procedure/Steps Request
+100025,"I first attempt the question on my own, if I don't understand I attempt to read the textbook to gain the information. If all fails, I ask AI to show me what I am missing or what steps I mistook.",Process Structure,Self-Attempt First; AI Help When Stuck,Error Diagnosis / Troubleshooting
+100026,If I struggle with a question (and can't go to OH and the textbook doesn't help) I'll ask the AI to look at my work and point out where the mistake is.,Process Structure,Self-Attempt First; AI Help When Stuck,Error Diagnosis / Troubleshooting
+100027,"I usually attempt the problem on my own at first, and then if I get stuck for an extended period of time, I use the AI to give me a hint on the problem, and then I try again. If I am really stuck, I'll use the AI to give me steps/the solution, and then I'll try a similar problem.",Process Structure,Self-Attempt First; AI Help When Stuck,"Procedure/Steps Request, Procedural Memorization & Practice, Guided Inquiry / Hints"
+100028,"I usually try to do the problem myself, usually until I get a final answer, and then put the problem into an AI model to check my work. If I get a different answer from the AI model, I compare the different steps and see where I might've gone wrong.",Process Structure,Self-Attempt First; Verify After,"Answer/Result Verification, Comparative Step-by-Step Verification"
+100029,,Uncodable,Irrelevant / Noise,
+100030,"If I get stuck with a problem or am not 100% confident on my answer, I plug it into AI, see if I get the same answer, and if not, make sure I understand the steps/the AI's steps make sense. If I'm still confused, I ask it to explain the steps.",Process Structure,Self-Attempt First; Verify After,"Procedure/Steps Request, Answer/Result Verification, Comparative Step-by-Step Verification"
+100031,"I ask AI to do the question so that I check check the question accuracy. If I can't ask it to do the question, which is often in mechanics, I either don't use AI or go with AI step by step with my own logic.",Process Structure,Self-Attempt First; Verify After,"Procedure/Steps Request, Answer/Result Verification, Conditional / Context-Dependent Use"
+100032,I haven't yet.,Process Structure,Non-Use / No Attempt,
+100033,,Uncodable,Irrelevant / Noise,
+100034,"AI is the final step if I am not able to solve the problem with my knowledge, I ask it to teach me how.",Process Structure,Self-Attempt First; AI Help When Stuck,Procedure/Steps Request
+100035,I ask them to solve it and I read through it and ask it questions when I don't understand.,Process Structure,AI-Guided Step-by-Step,"Concept Explanation Request, Procedure/Steps Request"
+100036,"I attempt every problem myself without use of generative AI. If I am consistently lost or am unable to solve, I turn to AI for assistance.",Process Structure,Self-Attempt First; AI Help When Stuck,
+100037,"My general workflow involving AI is: _x000D_
+Do the problem myself._x000D_
+If I become confused and cannot solve the problem, I ask AI to solve the problem step by step_x000D_
+Using AI response I identify my mistake and apply that to the next problem.",Process Structure,Self-Attempt First; AI Help When Stuck,"Procedure/Steps Request, Comparative Step-by-Step Verification"
+100038,I first ask it to identify the variables in the question and what is asking then I ask it to draw a FBD Then ask to show steps,Process Structure,AI-Guided Step-by-Step,"Procedure/Steps Request, Prompt Specification & Constraint Setting"
+100039,"AI tools will often only be used to check answers, I will follow along with explained steps and look for mistakes in the AI computations as well as my own.",Process Structure,Self-Attempt First; Verify After,"Comparative Step-by-Step Verification, Skepticism / Distrust of AI Outputs"
+100040,Breaking down concepts,Process Structure,Targeted Single-Purpose Use,Concept Explanation Request
+100041,Asking how to specifically get the answer/what steps I should take,Process Structure,Targeted Single-Purpose Use,Procedure/Steps Request
+100042,follow the steps to the answer,Process Structure,AI-Guided Step-by-Step,
+100043,I only ask it to explain a topic for me,Process Structure,Targeted Single-Purpose Use,Concept Explanation Request
+100044,"I usually try to solve the problem on my own and only use AI if I am stuck in a certain section of the problem. I also use it sometimes to see if my answer is correct, but I don't not ask AI to give me the work to the solution.",Process Structure,Self-Attempt First; AI Help When Stuck,"Answer/Result Verification, Prompt Specification & Constraint Setting"
+100045,"I do the question as much as I can. If my end answer does not match a provided answer or I get stuck on a part, I ask AI to explain why the step I did wrong differs from the answer.",Process Structure,Self-Attempt First; AI Help When Stuck,Error Diagnosis / Troubleshooting
+100046,"I have not used AI for this course. Although when I do for other courses, I usually provide the question bad my specific point of confusion.",Process Structure,Non-Use / No Attempt,
+100047,"I'd just ask if I'm approaching a question correctly, but I would not ask for these tools to solve my problem directly.",Process Structure,Targeted Single-Purpose Use,"Comparative Step-by-Step Verification, Prompt Specification & Constraint Setting"
+100048,I only use AI tools to check my final answer if used.,Process Structure,Self-Attempt First; Verify After,Answer/Result Verification
+100049,Ask it to generate a list of steps to take to approach a problem,Process Structure,Targeted Single-Purpose Use,Procedure/Steps Request
+100050,"I attempt the question myself. If there is a part of the question that I do not understand, I ask ai to point me in the right direction, so that I can attempt the correct steps. Then once I have done the problem, I check my answer with ai",Process Structure,Self-Attempt First; AI Help When Stuck,"Guided Inquiry / Hints, Answer/Result Verification"
+100051,Haven't used AI,Process Structure,Non-Use / No Attempt,
+100052,I'll work through the problem on my own at first and explain my thinking to AI tools and instruct the AI to correct the thought process without providing a solution.,Process Structure,Self-Attempt First; AI Help When Stuck,"Error Diagnosis / Troubleshooting, Prompt Specification & Constraint Setting"
+100053,Usually concept understanding or formula review unless very difficult then AI to review whole solution breakdown,Process Structure,Targeted Single-Purpose Use,"Concept Explanation Request, Procedure/Steps Request, Conditional / Context-Dependent Use"
+100054,"first i tried to produce and answer on my own . If i sit with it for more than 30-45 min then i plug the problem into chatgpt, read through the steps.  occasionally I'd try to solve it another way and compare answers. I'm very skeptical and anxious to put down answer if it's not correct and fully understood",Process Structure,Self-Attempt First; AI Help When Stuck,"Procedure/Steps Request, Answer/Result Verification, Skepticism / Distrust of AI Outputs"
+100055,The process of how to solve and memorize the steps simply.,Process Structure,Targeted Single-Purpose Use,Procedural Memorization & Practice
+100056,Attempt the problem on my own first and if I am stuck I will put the question into AI and ask about specific parts that I am stuck on. Once I get an explanation I try to solve again on my own. If I cannot I will ask for the breakdown of the steps to learn from my confusion.,Process Structure,Self-Attempt First; AI Help When Stuck,"Concept Explanation Request, Procedure/Steps Request, Prompt Specification & Constraint Setting"
+100057,I dont use AI for this class.,Process Structure,Non-Use / No Attempt,
+100059,"I usually use AI tools to check my answers. If they don't match, I tend to re-evaluate my answers. but the AI sometimes gives me wrong answers.",Process Structure,Self-Attempt First; Verify After,"Answer/Result Verification, Skepticism / Distrust of AI Outputs"
+100060,,Uncodable,Irrelevant / Noise,
+100061,In this scenario I would try to solve the problem out first then use AI tools in order to check work and correct mistakes.,Process Structure,Self-Attempt First; Verify After,"Answer/Result Verification, Error Diagnosis / Troubleshooting"
+100062,I never use AI.,Process Structure,Non-Use / No Attempt,
+100063,I do not use AI.,Process Structure,Non-Use / No Attempt,
+100064,Have not used them yet,Process Structure,Non-Use / No Attempt,
+100065,Haven't used AI in this course,Process Structure,Non-Use / No Attempt,
+100066,I usually do the problem on my own then have AI check my work. If I got a part wrong I have AI help identify what I did wrong and go back to fix it.,Process Structure,Self-Attempt First; Verify After,"Answer/Result Verification, Error Diagnosis / Troubleshooting"
+100067,Have not used AI tools for this course yet.,Process Structure,Non-Use / No Attempt,
+100068,I usually start the problem myself and work through until I get stuck or get a final answer. Then I use AI to work the problem and check my answer with its own.,Process Structure,Self-Attempt First; Verify After,Answer/Result Verification
+100069,"I have not done many problem yet, but AI tools are typically only used in instances where I A) get stuck and B) can identify what exactly is holding me up in a way that I can describe to AI for a comprehensive, correct, and helpful answer that lets me move forward.",Process Structure,Self-Attempt First; AI Help When Stuck,Prompt Specification & Constraint Setting
+100071,"I usually attempt a problem and then run it through AI to see if we agree on the steps to solve. I will also ask specific questions, break down, and explain certain topics",Process Structure,Self-Attempt First; Verify After,"Concept Explanation Request, Comparative Step-by-Step Verification"
+100072,,Uncodable,Irrelevant / Noise,
+100073,The approach in how to set up the question.,Uncodable,Irrelevant / Noise,
+100075,Never used,Process Structure,Non-Use / No Attempt,
+100076,,Uncodable,Irrelevant / Noise,
+100078,"Ask for help on a part of the a questions that I don't understand, ask for a similar questions after to test my understanding.",Process Structure,Self-Attempt First; AI Help When Stuck,Procedural Memorization & Practice
+100079,"I have only had one assignment so far for this course, and I felt comfortable with the topics, so I only used AI to check my answers after I had completed the homework. This class also is different from the only other similar class I've taken in that the homework is graded for completion/effort rather than for accuracy. This, I think, led me to feel comfortable going at it on my own from the start where as in my prior class, it felt like a big risk to my performance to start down a wrong path for any of the homework questions.",Process Structure,Self-Attempt First; Verify After,Answer/Result Verification
+100080,"I haven't, but If I were to I would use it to either help solve certian problems or explain topics.",Process Structure,Non-Use / No Attempt,
+100081,All steps from start to end,Uncodable,Irrelevant / Noise,
+100082,"I usually either ask for a full explanation after solving, and getting errors in my work. I also sometimes use it when I am struggling to start the question, and it can assist in the first steps.",Process Structure,Self-Attempt First; Verify After,"Procedure/Steps Request, Error Diagnosis / Troubleshooting"
+100083,Usually ask for hints but not for answers,Process Structure,Targeted Single-Purpose Use,Guided Inquiry / Hints
+100084,I use it to understand concepts and check my work,Process Structure,Self-Attempt First; Verify After,"Concept Explanation Request, Answer/Result Verification"
+100085,"I'll usually have AI help me setup the problem. I've found myself confused a few times with reading images to determine orientation, etc and AI has helped me understand it better.",Process Structure,Targeted Single-Purpose Use,Concept Explanation Request
+100086,Usually if I'm confused I'll just ask which approach or method to use and then do the rest myself.,Process Structure,Self-Attempt First; AI Help When Stuck,Procedure/Steps Request
+100087,"I usually try the problem myself and when I get stuck I ask the AI what are the steps to going through the problem, often I get stuck on something small and technical like trigonometry or something very specific to the problem but I know the general steps, the AI just helps affirm what I'm doing and guiding me along.",Process Structure,Self-Attempt First; AI Help When Stuck,Procedure/Steps Request
+100088,I haven't used AI in this course yet. I worry it may not understand diagrams accurately. I've been going to office hours and reading the textbook.,Process Structure,Non-Use / No Attempt,Diagram / Visual Content Interpretation Issues
+100089,"Answer by myself_x000D_
+Ai to check if im unsure_x000D_
+_x000D_",Process Structure,Self-Attempt First; Verify After,Answer/Result Verification
+100090,I usually try to complete a problem before I use any AI tools. I often use them to verify my answers and check my process. The only other time I use them is to give me an idea of where to start (not outright give the answer) if I am stuck (i.e Gemini has a Learn feature that attempts to act as a learning tool and doesn't provide answers right away),Process Structure,Self-Attempt First; Verify After,"Guided Inquiry / Hints, Answer/Result Verification, Comparative Step-by-Step Verification"
+100091,,Uncodable,Irrelevant / Noise,
+100093,"i use it when i'm confused about a step, or check if i've made a mistake. i sometimes use it to check my answer but i never use it to fully complete a question.",Process Structure,Self-Attempt First; AI Help When Stuck,"Answer/Result Verification, Error Diagnosis / Troubleshooting"
+100094,I ask for help on set up if i am unsure how to set up a problem. If there is an unknown concept i ask for an example with solution then imitate it,Process Structure,Self-Attempt First; AI Help When Stuck,Procedure/Steps Request
+100095,"I attempt the problem, then use AI for assistance if I am unsure how to continue.",Process Structure,Self-Attempt First; AI Help When Stuck,
+100096,I look at the process to find the result and try to work on the problem given the process.,Process Structure,AI-Guided Step-by-Step,
+100097,I try to solve the problem myself first and then will use AI to check my answer or refresh a concept,Process Structure,Self-Attempt First; Verify After,"Concept Explanation Request, Answer/Result Verification"
+100098,"I always do the work on my own, then use AI to check my answers. If I get stuck, I ask for step-by-step solutions to follow along with",Process Structure,Self-Attempt First; Verify After,"Procedure/Steps Request, Answer/Result Verification"
+100099,I submit the question into the AI and ask for how to solve it.,Process Structure,One-Shot Answer Generation,Procedure/Steps Request
+100100,Ask it to show examples and solve step by step,Process Structure,AI-Guided Step-by-Step,Procedure/Steps Request
+100101,"1)try to solve it by myself_x000D_
+2)if I can't find a way to answer it ask chat gpt _x000D_
+3) don't look at the answers just at the first formulas like hints and the way of doing it_x000D_
+4) apply the formula and try to develop it_x000D_",Process Structure,Self-Attempt First; AI Help When Stuck,Guided Inquiry / Hints
+100102,double checking my progress nd asking questions in between about the process however it's not always accurate,Process Structure,Iterative Refinement,"Procedure/Steps Request, Comparative Step-by-Step Verification, Skepticism / Distrust of AI Outputs"
+100103,I haven't used AI for this course.,Process Structure,Non-Use / No Attempt,
+100104,I copy and paste problems and send them through AI to solve it and show me the steps in detail.,Process Structure,One-Shot Answer Generation,Procedure/Steps Request
+100105,"I will attempt to solve the problem first on my own before putting it into AI to double check my steps and answer. If we disagree, I will ask it to break down the problem for me and tell me where I messed up.",Process Structure,Self-Attempt First; Verify After,"Answer/Result Verification, Comparative Step-by-Step Verification, Error Diagnosis / Troubleshooting"
