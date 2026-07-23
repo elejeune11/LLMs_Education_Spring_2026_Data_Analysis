@@ -2,10 +2,23 @@
 
 Data, analysis code, and figure-generation pipeline for *Structured AI Demonstrations and Student LLM Use in Engineering Mechanics: Study Design and Preliminary Results*.
 
-The study surveyed undergraduate students in EK301 (Engineering Mechanics I, statics) at Boston University before and after the Spring 2026 semester, and linked their responses to course performance. One of three lecture sections additionally received a sequence of nine structured, instructor-led AI demonstrations. Everything needed to
-regenerate every figure in the manuscript is in this repository.
+## What this study did
 
-Study materials are covered by IRB Protocol #8256X (exempt, approved December 17, 2025).
+EK301 (Engineering Mechanics I, statics) is a required core course taken by every College of Engineering major at Boston University. In Spring 2026 it ran across three lecture sections under a common syllabus, homework set, and truss design project. We surveyed students at the start and end of the semester about how they use generative AI tools, what they believe about those tools, and how they check AI output, then linked those responses to performance on the two common in-class midterms. One section, taught by the PI, additionally received nine short instructor-led AI demonstrations delivered at roughly weekly cadence during the last 5 to 15 minutes of class.
+
+The study asks three questions: how students actually use LLMs in a problem-solving course, how that use relates to course performance, and whether brief recurring demonstrations shift either. 105 students consented to participate.
+
+**The results are descriptive.** Sections were assigned by ordinary registration rather than randomization, the intervention ran in a single section, and the analysis carries no covariates for prior ability. Nothing here supports a causal claim about the demonstrations. The contribution is the reproducible study design, the survey instrument, the demonstration sequence, and a domain-specific empirical snapshot that other engineering educators can adapt and compare against.
+
+![Timeline of the EK301 Spring 2026 study, showing four parallel tracks: study administration, study delivery, course events, and institutional deadlines.](figures/ek301_study_timeline.png)
+
+*Study timeline. Four parallel tracks cover study administration (IRB, data linkage, de-identification), study delivery (consent, the pre- and post-semester surveys, the nine AI demonstrations), course events (buckling lab, midterms, truss project milestones, final exam), and institutional add, drop, and withdrawal deadlines. The shaded band is Spring Recess.*
+
+## What is in this repository
+
+The de-identified survey data, the loaders and figure code that regenerate every manuscript figure, the five qualitative codebooks, and the multi-model LLM coding pipeline used to code the free-text responses, including its full audit trail.
+
+Study materials are covered by IRB Protocol #8256X (exempt, approved December 17, 2025). *We highly recommend contacting the PI elejeune@bu.edu if you are interested in secondary use of this data.*
 
 ---
 
