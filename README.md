@@ -18,7 +18,7 @@ The study asks three questions: how students actually use LLMs in a problem-solv
 
 The de-identified survey data, the loaders and figure code that regenerate every manuscript figure, the five qualitative codebooks, and the multi-model LLM coding pipeline used to code the free-text responses, including its full audit trail.
 
-Study materials are covered by IRB Protocol #8256X (exempt, approved December 17, 2025). *We highly recommend contacting the PI elejeune@bu.edu if you are interested in secondary use of this data.*
+Study materials are covered by IRB Protocol #8256X (exempt, approved December 17, 2025). **We highly recommend contacting the PI elejeune@bu.edu if you are interested in secondary use of this data.**
 
 ---
 
