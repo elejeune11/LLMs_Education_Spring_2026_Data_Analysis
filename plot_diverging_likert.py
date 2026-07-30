@@ -212,8 +212,9 @@ def plot_diverging_likert(
 
 
 if __name__ == "__main__":
+    from load_research_data import data_path, QUANT_FILE
     plot_diverging_likert(
-        data_path="05_final_research.xlsx",
+        data_path=str(data_path(QUANT_FILE)),
         col_stems=[
             "understand_apply_principles",
             "understand_identify_mistakes",

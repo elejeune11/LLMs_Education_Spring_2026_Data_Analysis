@@ -211,8 +211,9 @@ def plot_stacked_freq(
 
 
 if __name__ == "__main__":
+    from load_research_data import data_path, QUANT_FILE
     plot_stacked_freq(
-        data_path="05_final_research.xlsx",
+        data_path=str(data_path(QUANT_FILE)),
         col_stems=["ai_use_freq_general", "ai_use_freq_engmech"],
         panel_titles=[
             "AI use frequency — general (any purpose)",

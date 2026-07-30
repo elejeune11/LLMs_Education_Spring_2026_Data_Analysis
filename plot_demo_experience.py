@@ -157,7 +157,8 @@ def plot_demo_experience(
 
 
 if __name__ == "__main__":
+    from load_research_data import data_path, QUANT_FILE
     plot_demo_experience(
-        data_path="05_final_research.xlsx",
+        data_path=str(data_path(QUANT_FILE)),
         out_path="desc_page5_demos.pdf",
     )

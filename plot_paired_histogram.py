@@ -145,8 +145,9 @@ def plot_paired_histogram(
 
 
 if __name__ == "__main__":
+    from load_research_data import data_path, QUANT_FILE
     plot_paired_histogram(
-        data_path="05_final_research.xlsx",
+        data_path=str(data_path(QUANT_FILE)),
         stem="ai_impact_rating",
         title="Perceived impact of AI tools on learning",
         out_path="desc_page4_impact.pdf",
