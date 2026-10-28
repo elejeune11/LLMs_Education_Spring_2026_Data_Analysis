@@ -2,7 +2,8 @@
 plot_demo_experience.py
 -----------------------
 2x2 panel figure summarising the four AI-demonstration experience items
-(POST only, demo group = students who attended >= 1 demonstration, n=60):
+(POST only, demo group = students who attended >= 1 demonstration, n=59
+after the honesty-item rule in load_research_data.load_data):
 
     [0,0] Demos attended (1-9 count histogram)
     [0,1] Demos helped understanding (5-point Likert)

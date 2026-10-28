@@ -174,10 +174,10 @@ from any working directory and with the deposited files unzipped into a single f
 from load_research_data import load_data, load_qualitative_wide, response_levels
 
 data = load_data()                    # resolves data/Spring_2026_quantitative.csv
-df   = data["all"]                    # 105 rows, cleaned
+df   = data["all"]                    # 105 rows, cleaned; honesty-item rule applied
 pre  = data["pre_likert"]
 post = data["post_likert"]
-pair = data["paired"]                 # 94 rows with both timepoints, integer-encoded
+pair = data["paired"]                 # 93 rows with both timepoints, integer-encoded
 
 text = load_qualitative_wide()        # keyed by QualID, NOT joinable to df
 ```
@@ -211,8 +211,23 @@ Because labels now come from the data, `question_metadata.py` raises
 
 Blank cells in the quantitative file conflate three situations: the respondent selected
 "Not Applicable", the respondent skipped the item, and the respondent did not take that
-survey. Five of the 105 rows are post-only respondents, and six are pre-only. Per-item
-counts in the manuscript figures reflect this.
+survey. After the honesty-item rule below, five of the 105 rows are post-only
+respondents, seven are pre-only, and 93 have both. Per-item counts in the manuscript
+figures reflect this.
+
+### Honesty-item rule
+
+`load_data()` applies one exclusion before anything else. Where `responded_honestly_post`
+is Disagree or Strongly Disagree, every other post-survey column in that row is set to
+missing; the row's pre-survey responses are kept. This applies to one respondent. The
+honesty item asks whether the respondent answered *that* survey honestly and thoughtfully,
+so it is applied per survey wave. The deposited CSV is unchanged; the rule is applied in
+code from the public column, so no identifier is needed.
+
+The rule is not applied to the qualitative file, because the two files cannot be linked
+(this is required by the study's IRB protocol). That respondent's post-survey free text
+therefore remains in the qualitative data. See Appendix F of the manuscript (data
+processing log, step 7.4 and the note beneath the processing-steps table).
 
 ### CSV mechanics
 

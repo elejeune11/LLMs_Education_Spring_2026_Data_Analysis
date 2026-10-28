@@ -52,6 +52,7 @@ Public API (unchanged where it matters for the plotting scripts)
     pre         = data["pre_likert"]   # pre-survey Likert columns only
     post        = data["post_likert"]  # post-survey Likert columns only
     paired      = data["paired"]       # rows with both pre & post, int-encoded
+                                       # (after the honesty-item rule: 93 rows)
 
 Every plotting script only ever reads data["all"], so no plotting script needs
 to change other than pointing DATA_PATH at the quantitative CSV.
@@ -65,6 +66,7 @@ import os
 import re
 from pathlib import Path
 
+import numpy as np
 import pandas as pd
 
 # Encoding used for every read. Handles files with or without a UTF-8 BOM.
@@ -169,6 +171,17 @@ EXCLUDE_FROM_LIKERT = {
     "ai_demo_engagement_post",
     "ai_demo_changed_use_post",
 }
+
+# Honesty-item rule (manuscript Appendix F, step 7.4 and the note beneath the
+# processing-steps table). The honesty item asks whether the respondent answered
+# THAT survey honestly and thoughtfully, so it is applied per survey wave: where
+# the post-survey honesty item is answered with disagreement, all other
+# post-survey structured responses for that row are set to missing. Pre-survey
+# responses are kept. The rule is applied from the public column, so no
+# respondent identifier is needed. It is not applied to the qualitative file,
+# which cannot be linked to this one (IRB protocol).
+HONESTY_POST_COL = "responded_honestly_post"
+HONESTY_FAIL_VALUES = {"disagree", "strongly disagree"}
 
 # Ordered Likert scale for ordinal encoding.
 #
@@ -290,6 +303,10 @@ def load_data(path: str | None = None) -> dict[str, pd.DataFrame]:
         post_likert  - post-survey Likert items (normalised strings) + meta
         paired       - rows with both pre & post Likert data, int-encoded
 
+    Post-survey structured responses are set to missing for any row whose
+    `responded_honestly_post` answer is Disagree or Strongly Disagree (the
+    honesty-item rule; manuscript Appendix F). Pre-survey responses are kept.
+
     Note: `text` and `grades` subsets from the old single-file API are gone.
     Text lives in the separate qualitative file (see load_qualitative_wide);
     grades collapse to the single `grade_quartile` column inside `all`.
@@ -298,6 +315,19 @@ def load_data(path: str | None = None) -> dict[str, pd.DataFrame]:
 
     # Name-based validation; raises immediately on any missing expected column.
     _validate_columns(df)
+
+    # -- Honesty-item rule (see HONESTY_POST_COL above) ----------------------
+    # Blank every post-survey structured response (except the honesty item
+    # itself) for rows whose post-survey honesty answer is a disagreement.
+    honesty_fail = (
+        df[HONESTY_POST_COL].astype("string").str.strip().str.lower()
+        .isin(HONESTY_FAIL_VALUES).fillna(False)
+    )
+    post_cols = [c for c in df.columns
+                 if c.endswith("_post") and c != HONESTY_POST_COL]
+    # np.nan (not pd.NA) so the existing string normalisation below, which
+    # maps the text "nan" back to missing, treats these cells as missing.
+    df.loc[honesty_fail, post_cols] = np.nan
 
     # -- Grade quartile passthrough -------------------------------------------
     # grade_quartile already exists in the file (values Q1-Q4). Blank or missing
