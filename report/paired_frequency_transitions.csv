@@ -1,0 +1,51 @@
+item,pre,post,count
+ai_use_freq_general,Never used,Never used,1
+ai_use_freq_general,Never used,Less than once per month,0
+ai_use_freq_general,Never used,1-3 times per month,1
+ai_use_freq_general,Never used,1-5 times per week,0
+ai_use_freq_general,Never used,Daily or almost daily,0
+ai_use_freq_general,Less than once per month,Never used,0
+ai_use_freq_general,Less than once per month,Less than once per month,0
+ai_use_freq_general,Less than once per month,1-3 times per month,0
+ai_use_freq_general,Less than once per month,1-5 times per week,0
+ai_use_freq_general,Less than once per month,Daily or almost daily,0
+ai_use_freq_general,1-3 times per month,Never used,0
+ai_use_freq_general,1-3 times per month,Less than once per month,2
+ai_use_freq_general,1-3 times per month,1-3 times per month,5
+ai_use_freq_general,1-3 times per month,1-5 times per week,12
+ai_use_freq_general,1-3 times per month,Daily or almost daily,1
+ai_use_freq_general,1-5 times per week,Never used,0
+ai_use_freq_general,1-5 times per week,Less than once per month,2
+ai_use_freq_general,1-5 times per week,1-3 times per month,3
+ai_use_freq_general,1-5 times per week,1-5 times per week,24
+ai_use_freq_general,1-5 times per week,Daily or almost daily,15
+ai_use_freq_general,Daily or almost daily,Never used,0
+ai_use_freq_general,Daily or almost daily,Less than once per month,0
+ai_use_freq_general,Daily or almost daily,1-3 times per month,1
+ai_use_freq_general,Daily or almost daily,1-5 times per week,8
+ai_use_freq_general,Daily or almost daily,Daily or almost daily,18
+ai_use_freq_engmech,Never used,Never used,5
+ai_use_freq_engmech,Never used,Less than once per month,6
+ai_use_freq_engmech,Never used,1-3 times per month,11
+ai_use_freq_engmech,Never used,1-5 times per week,9
+ai_use_freq_engmech,Never used,Daily or almost daily,1
+ai_use_freq_engmech,Less than once per month,Never used,0
+ai_use_freq_engmech,Less than once per month,Less than once per month,3
+ai_use_freq_engmech,Less than once per month,1-3 times per month,2
+ai_use_freq_engmech,Less than once per month,1-5 times per week,3
+ai_use_freq_engmech,Less than once per month,Daily or almost daily,0
+ai_use_freq_engmech,1-3 times per month,Never used,0
+ai_use_freq_engmech,1-3 times per month,Less than once per month,5
+ai_use_freq_engmech,1-3 times per month,1-3 times per month,4
+ai_use_freq_engmech,1-3 times per month,1-5 times per week,9
+ai_use_freq_engmech,1-3 times per month,Daily or almost daily,1
+ai_use_freq_engmech,1-5 times per week,Never used,0
+ai_use_freq_engmech,1-5 times per week,Less than once per month,1
+ai_use_freq_engmech,1-5 times per week,1-3 times per month,6
+ai_use_freq_engmech,1-5 times per week,1-5 times per week,21
+ai_use_freq_engmech,1-5 times per week,Daily or almost daily,3
+ai_use_freq_engmech,Daily or almost daily,Never used,0
+ai_use_freq_engmech,Daily or almost daily,Less than once per month,0
+ai_use_freq_engmech,Daily or almost daily,1-3 times per month,0
+ai_use_freq_engmech,Daily or almost daily,1-5 times per week,2
+ai_use_freq_engmech,Daily or almost daily,Daily or almost daily,1

@@ -209,9 +209,11 @@ Because labels now come from the data, `question_metadata.py` raises
 
 ### Missing values
 
-Blank cells in the quantitative file conflate three situations: the respondent selected
-"Not Applicable", the respondent skipped the item, and the respondent did not take that
-survey. After the honesty-item rule below, five of the 105 rows are post-only
+Every survey item except the 0-10 impact rating required a response. A blank cell
+therefore means either that the respondent did not take that survey, or, for the Section
+C/D attitude items that offered it, that the respondent selected "Not Applicable". The
+impact rating was optional: one respondent who took the early-semester survey left it
+blank. After the honesty-item rule below, five of the 105 rows are post-only
 respondents, seven are pre-only, and 93 have both. Per-item counts in the manuscript
 figures reflect this.
 

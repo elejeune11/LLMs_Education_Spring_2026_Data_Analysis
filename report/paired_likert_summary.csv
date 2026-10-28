@@ -1,0 +1,12 @@
+item,section,label,matched_students,paired_n,increased,same,decreased,na_either
+understand_apply_principles,A,Confident applying principles to new problems,93,93,37,45,11,0
+understand_identify_mistakes,A,Can identify and correct own mistakes,93,93,24,53,16,0
+understand_until_practice,A,Understand concepts until working examples alone,93,93,34,29,30,0
+understand_exams_reflect,A,Exam scores reflect understanding,93,93,26,35,32,0
+ai_useful_coursework,C,AI useful for university coursework,93,88,26,44,18,5
+ai_helped_understand_engmech,C,AI helped me understand engineering mechanics,93,75,28,27,20,18
+ai_more_confusing,C,AI makes mechanics problems more confusing,93,72,31,24,17,21
+ai_can_evaluate_correctness,C,Can evaluate whether AI solution is correct,93,74,28,32,14,19
+ai_accuracy_concerns,C,Concerns about AI accuracy for mechanics,93,76,17,28,31,17
+ai_vs_textbooks,D,AI more helpful than textbooks,93,85,28,33,24,8
+ai_vs_discussion,D,AI more helpful than discussion section,93,67,30,26,11,26
