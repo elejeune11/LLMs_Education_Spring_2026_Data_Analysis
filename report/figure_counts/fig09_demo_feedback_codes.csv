@@ -1,0 +1,18 @@
+column,code_id,tier,category,code,count,n_responses
+txt_ai_demo_feedback_post,DF01,,Likes,Course Utility,10,60
+txt_ai_demo_feedback_post,DF02,,Likes,Capability Awareness,8,60
+txt_ai_demo_feedback_post,DF03,,Likes,Broader Context,3,60
+txt_ai_demo_feedback_post,DF04,,Likes,Other / Idiosyncratic Like,4,60
+txt_ai_demo_feedback_post,DF05,,Dislikes,Redundant / Basic,7,60
+txt_ai_demo_feedback_post,DF06,,Dislikes,Lacked Course Utility,11,60
+txt_ai_demo_feedback_post,DF07,,Dislikes,Logistics of Delivery Structure,2,60
+txt_ai_demo_feedback_post,DF08,,Dislikes,Cognitive Overload & Density,4,60
+txt_ai_demo_feedback_post,DF09,,Dislikes,Low Engagement,5,60
+txt_ai_demo_feedback_post,DF10,,Dislikes,Other / Idiosyncratic Dislike,4,60
+txt_ai_demo_feedback_post,DF11,,Suggestions,Increase Course Utility,13,60
+txt_ai_demo_feedback_post,DF12,,Suggestions,Increase Interactivity,6,60
+txt_ai_demo_feedback_post,DF13,,Suggestions,Modify Logistics of Delivery Structure,7,60
+txt_ai_demo_feedback_post,DF14,,Suggestions,Other / Idiosyncratic Suggestion,8,60
+txt_ai_demo_feedback_post,DF15,,Not Applicable,Did Not Attend / Cannot Comment,0,60
+txt_ai_demo_feedback_post,DF16,,Neutral,Neutral / No Strong Opinion,1,60
+txt_ai_demo_feedback_post,DF17,,Uncodable,Irrelevant / Noise,4,60

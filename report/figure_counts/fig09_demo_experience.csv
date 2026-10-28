@@ -1,0 +1,21 @@
+item,response,count,n_demo_group
+ai_demos_attended_post,9.0,28,59
+ai_demos_attended_post,7.0,12,59
+ai_demos_attended_post,8.0,11,59
+ai_demos_attended_post,6.0,3,59
+ai_demos_attended_post,5.0,3,59
+ai_demos_attended_post,3.0,2,59
+ai_demo_helped_understanding_post,Agree,25,59
+ai_demo_helped_understanding_post,Neither Agree nor Disagree,17,59
+ai_demo_helped_understanding_post,Disagree,9,59
+ai_demo_helped_understanding_post,Strongly Disagree,7,59
+ai_demo_helped_understanding_post,Strongly Agree,1,59
+ai_demo_engagement_post,Moderately engaged,23,59
+ai_demo_engagement_post,Slightly engaged,23,59
+ai_demo_engagement_post,Very engaged,8,59
+ai_demo_engagement_post,Not at all engaged,4,59
+ai_demo_engagement_post,Extremely engaged,1,59
+ai_demo_changed_use_post,Somewhat,20,59
+ai_demo_changed_use_post,Not at all,20,59
+ai_demo_changed_use_post,A little,14,59
+ai_demo_changed_use_post,Quite a bit,5,59

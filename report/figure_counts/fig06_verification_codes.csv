@@ -1,0 +1,37 @@
+column,code_id,tier,category,code,count,n_responses
+txt_ai_verify_correctness_pre,A1,,Independent Verification,Re-Solves to Verify AI,25,100
+txt_ai_verify_correctness_pre,A2,,Independent Verification,Traces AI's Steps,34,100
+txt_ai_verify_correctness_pre,A3,,Independent Verification,Plausibility / Sanity Check,13,100
+txt_ai_verify_correctness_pre,A4,,Independent Verification,Verifies Diagram / Problem Setup,3,100
+txt_ai_verify_correctness_pre,A5,,Independent Verification,"Solves First, Uses AI as Checker",6,100
+txt_ai_verify_correctness_pre,B1,,External Cross-Reference,Course Materials & Answer Keys,13,100
+txt_ai_verify_correctness_pre,B2,,External Cross-Reference,Instructor / TA Consultation,1,100
+txt_ai_verify_correctness_pre,B3,,External Cross-Reference,Peer Comparison,11,100
+txt_ai_verify_correctness_pre,B4,,External Cross-Reference,Cross-Checks Other AI Models,10,100
+txt_ai_verify_correctness_pre,B5,,External Cross-Reference,Online Search,8,100
+txt_ai_verify_correctness_pre,C1a,,Within-Conversation AI Strategies,Direct Challenge / Error Flagging,2,100
+txt_ai_verify_correctness_pre,C1b,,Within-Conversation AI Strategies,Requests Re-Check / Redo,0,100
+txt_ai_verify_correctness_pre,C1c,,Within-Conversation AI Strategies,Probing Follow-Ups,2,100
+txt_ai_verify_correctness_pre,C2,,Within-Conversation AI Strategies,Verifies AI-Cited Sources,2,100
+txt_ai_verify_correctness_pre,D1,,Limited or No Verification,Minimal / Conditional Verification,5,100
+txt_ai_verify_correctness_pre,D2,,Limited or No Verification,No Verification,2,100
+txt_ai_verify_correctness_pre,E1,,Not Applicable,Does Not Use AI,3,100
+txt_ai_verify_correctness_pre,E2,,Not Applicable,Uncodable,9,100
+txt_ai_verify_correctness_post,A1,,Independent Verification,Re-Solves to Verify AI,30,99
+txt_ai_verify_correctness_post,A2,,Independent Verification,Traces AI's Steps,26,99
+txt_ai_verify_correctness_post,A3,,Independent Verification,Plausibility / Sanity Check,5,99
+txt_ai_verify_correctness_post,A4,,Independent Verification,Verifies Diagram / Problem Setup,7,99
+txt_ai_verify_correctness_post,A5,,Independent Verification,"Solves First, Uses AI as Checker",4,99
+txt_ai_verify_correctness_post,B1,,External Cross-Reference,Course Materials & Answer Keys,16,99
+txt_ai_verify_correctness_post,B2,,External Cross-Reference,Instructor / TA Consultation,1,99
+txt_ai_verify_correctness_post,B3,,External Cross-Reference,Peer Comparison,8,99
+txt_ai_verify_correctness_post,B4,,External Cross-Reference,Cross-Checks Other AI Models,9,99
+txt_ai_verify_correctness_post,B5,,External Cross-Reference,Online Search,14,99
+txt_ai_verify_correctness_post,C1a,,Within-Conversation AI Strategies,Direct Challenge / Error Flagging,2,99
+txt_ai_verify_correctness_post,C1b,,Within-Conversation AI Strategies,Requests Re-Check / Redo,3,99
+txt_ai_verify_correctness_post,C1c,,Within-Conversation AI Strategies,Probing Follow-Ups,6,99
+txt_ai_verify_correctness_post,C2,,Within-Conversation AI Strategies,Verifies AI-Cited Sources,1,99
+txt_ai_verify_correctness_post,D1,,Limited or No Verification,Minimal / Conditional Verification,12,99
+txt_ai_verify_correctness_post,D2,,Limited or No Verification,No Verification,1,99
+txt_ai_verify_correctness_post,E1,,Not Applicable,Does Not Use AI,3,99
+txt_ai_verify_correctness_post,E2,,Not Applicable,Uncodable,5,99

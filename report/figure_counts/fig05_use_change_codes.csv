@@ -1,0 +1,16 @@
+column,code_id,tier,category,code,count,n_responses
+txt_ai_use_change_post,UC01,,No Substantive Change,No Substantive Change,41,99
+txt_ai_use_change_post,UC02,,Frequency of Use,Increased Frequency,7,99
+txt_ai_use_change_post,UC03,,Frequency of Use,Decreased Frequency,10,99
+txt_ai_use_change_post,UC04,,Frequency of Use,Context-Dependent Change,2,99
+txt_ai_use_change_post,UC05,,Manner of Use,Shift Toward Study & Concept Support,11,99
+txt_ai_use_change_post,UC06,,Manner of Use,Shift Toward Solution & Output Generation,3,99
+txt_ai_use_change_post,UC07,,Manner of Use,Shift Toward Verification & Checking,4,99
+txt_ai_use_change_post,UC08,,Manner of Use,Prompting Skill Improvement,4,99
+txt_ai_use_change_post,UC09,,Stance & Self-Regulation,Limiting Reliance,4,99
+txt_ai_use_change_post,UC10,,Stance & Self-Regulation,Increased Critical Scrutiny,10,99
+txt_ai_use_change_post,UC11,,Tool & Resource Selection,Tool / Model Selection,8,99
+txt_ai_use_change_post,UC12,,Tool & Resource Selection,Shift to Non-AI Resources,3,99
+txt_ai_use_change_post,UC13,,Other,Other / Unspecified Change,2,99
+txt_ai_use_change_post,UC14,,Uncodable,Irrelevant / Noise,6,99
+txt_ai_use_change_post,UC15,,Not Applicable,Never Used AI,2,99

@@ -1,0 +1,45 @@
+column,code_id,tier,category,code,count,n_responses
+txt_ai_workflow_steps_pre,WF01,T1,Process Structure,Self-Attempt First; Verify After,21,100
+txt_ai_workflow_steps_pre,WF02,T1,Process Structure,Self-Attempt First; AI Help When Stuck,24,100
+txt_ai_workflow_steps_pre,WF03,T1,Process Structure,AI-Guided Step-by-Step,7,100
+txt_ai_workflow_steps_pre,WF04,T1,Process Structure,Iterative Refinement,1,100
+txt_ai_workflow_steps_pre,WF05,T1,Process Structure,One-Shot Answer Generation,2,100
+txt_ai_workflow_steps_pre,WF06,T1,Process Structure,Non-Use / No Attempt,16,100
+txt_ai_workflow_steps_pre,WF22,T1,Process Structure,Targeted Single-Purpose Use,14,100
+txt_ai_workflow_steps_pre,WF07,T1,Process Structure,Other Process Structure,1,100
+txt_ai_workflow_steps_pre,WF08,T1,Uncodable,Irrelevant / Noise,14,100
+txt_ai_workflow_steps_pre,WF09,T2,Conceptual Understanding & Explanation,Concept Explanation Request,12,100
+txt_ai_workflow_steps_pre,WF10,T2,Procedural Learning & Problem-Solving Steps,Procedure/Steps Request,28,100
+txt_ai_workflow_steps_pre,WF11,T2,Procedural Learning & Problem-Solving Steps,Procedural Memorization & Practice,4,100
+txt_ai_workflow_steps_pre,WF12,T2,Procedural Learning & Problem-Solving Steps,Guided Inquiry / Hints,10,100
+txt_ai_workflow_steps_pre,WF13,T2,"Verification, Checking, & Error Correction",Answer/Result Verification,21,100
+txt_ai_workflow_steps_pre,WF14,T2,"Verification, Checking, & Error Correction",Comparative Step-by-Step Verification,10,100
+txt_ai_workflow_steps_pre,WF15,T2,"Verification, Checking, & Error Correction",Error Diagnosis / Troubleshooting,10,100
+txt_ai_workflow_steps_pre,WF16,T2,"Verification, Checking, & Error Correction",Accuracy Verification Against External Sources,0,100
+txt_ai_workflow_steps_pre,WF17,T2,Strategic Approach & Conditional Use,Conditional / Context-Dependent Use,2,100
+txt_ai_workflow_steps_pre,WF18,T2,Tool Limitations & Workarounds,Diagram / Visual Content Interpretation Issues,1,100
+txt_ai_workflow_steps_pre,WF19,T2,Critical Evaluation & Trust,Skepticism / Distrust of AI Outputs,4,100
+txt_ai_workflow_steps_pre,WF20,T2,Prompting Strategy,Prompt Specification & Constraint Setting,8,100
+txt_ai_workflow_steps_pre,WF21,T2,Other,Other / Idiosyncratic Step,1,100
+txt_ai_workflow_steps_post,WF01,T1,Process Structure,Self-Attempt First; Verify After,16,99
+txt_ai_workflow_steps_post,WF02,T1,Process Structure,Self-Attempt First; AI Help When Stuck,20,99
+txt_ai_workflow_steps_post,WF03,T1,Process Structure,AI-Guided Step-by-Step,20,99
+txt_ai_workflow_steps_post,WF04,T1,Process Structure,Iterative Refinement,4,99
+txt_ai_workflow_steps_post,WF05,T1,Process Structure,One-Shot Answer Generation,4,99
+txt_ai_workflow_steps_post,WF06,T1,Process Structure,Non-Use / No Attempt,9,99
+txt_ai_workflow_steps_post,WF22,T1,Process Structure,Targeted Single-Purpose Use,18,99
+txt_ai_workflow_steps_post,WF07,T1,Process Structure,Other Process Structure,3,99
+txt_ai_workflow_steps_post,WF08,T1,Uncodable,Irrelevant / Noise,5,99
+txt_ai_workflow_steps_post,WF09,T2,Conceptual Understanding & Explanation,Concept Explanation Request,28,99
+txt_ai_workflow_steps_post,WF10,T2,Procedural Learning & Problem-Solving Steps,Procedure/Steps Request,36,99
+txt_ai_workflow_steps_post,WF11,T2,Procedural Learning & Problem-Solving Steps,Procedural Memorization & Practice,2,99
+txt_ai_workflow_steps_post,WF12,T2,Procedural Learning & Problem-Solving Steps,Guided Inquiry / Hints,6,99
+txt_ai_workflow_steps_post,WF13,T2,"Verification, Checking, & Error Correction",Answer/Result Verification,19,99
+txt_ai_workflow_steps_post,WF14,T2,"Verification, Checking, & Error Correction",Comparative Step-by-Step Verification,8,99
+txt_ai_workflow_steps_post,WF15,T2,"Verification, Checking, & Error Correction",Error Diagnosis / Troubleshooting,5,99
+txt_ai_workflow_steps_post,WF16,T2,"Verification, Checking, & Error Correction",Accuracy Verification Against External Sources,3,99
+txt_ai_workflow_steps_post,WF17,T2,Strategic Approach & Conditional Use,Conditional / Context-Dependent Use,10,99
+txt_ai_workflow_steps_post,WF18,T2,Tool Limitations & Workarounds,Diagram / Visual Content Interpretation Issues,8,99
+txt_ai_workflow_steps_post,WF19,T2,Critical Evaluation & Trust,Skepticism / Distrust of AI Outputs,11,99
+txt_ai_workflow_steps_post,WF20,T2,Prompting Strategy,Prompt Specification & Constraint Setting,15,99
+txt_ai_workflow_steps_post,WF21,T2,Other,Other / Idiosyncratic Step,4,99

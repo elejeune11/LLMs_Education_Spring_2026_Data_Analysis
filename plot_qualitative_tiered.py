@@ -19,6 +19,7 @@ import numpy as np
 import matplotlib.pyplot as plt
 import matplotlib.gridspec as gridspec
 import matplotlib.patches as mpatches
+from matplotlib.legend_handler import HandlerTuple
 
 from load_qualitative_tiered import load_qualitative_tiered
 from plot_style import (
@@ -371,11 +372,13 @@ def plot_tiered_combined(
 
     # Pre/post legend for panel 2 (grey vs neutral dark swatch, since post
     # colour varies by category)
-    h2 = [mpatches.Patch(color=COLOUR_PRE, label=f"Pre (n={n_pre})"),
-          mpatches.Patch(facecolor="white", edgecolor="#666",
-                         label=f"Post (n={n_post}) — category color")]
-    ax2.legend(handles=h2, loc="lower right", fontsize=FONT_SIZES["legend"]-1,
-               frameon=False, handlelength=1.2, handletextpad=0.5, title="Timepoint",
+    post_swatch = tuple(mpatches.Patch(color=cat_colors.get(c, "#888"))
+                        for c in t2_cats)
+    ax2.legend(handles=[mpatches.Patch(color=COLOUR_PRE), post_swatch],
+               labels=[f"Pre (n={n_pre})", f"Post (n={n_post})"],
+               handler_map={tuple: HandlerTuple(ndivide=None, pad=0)},
+               loc="lower right", fontsize=FONT_SIZES["legend"]-1,
+               frameon=False, handlelength=2.4, handletextpad=0.5, title="Timepoint",
                title_fontsize=FONT_SIZES["legend"]-1)
 
     # ── Figure title ──────────────────────────────────────────────────────────

@@ -1,0 +1,31 @@
+column,code_id,tier,category,code,count,n_responses
+txt_ai_impact_describe_pre,IM01,T1,Overall Sentiment,Positive Impact,47,100
+txt_ai_impact_describe_pre,IM02,T1,Overall Sentiment,Negative Impact,7,100
+txt_ai_impact_describe_pre,IM03,T1,Overall Sentiment,Mixed Impact,11,100
+txt_ai_impact_describe_pre,IM04,T1,Overall Sentiment,Neutral / No Impact,10,100
+txt_ai_impact_describe_pre,IM05,T1,Not Applicable,Does Not Use AI,15,100
+txt_ai_impact_describe_pre,IM06,T1,Uncodable,Irrelevant / Noise,10,100
+txt_ai_impact_describe_pre,IM07,T2,Positive Affordances,Concept Clarification,30,100
+txt_ai_impact_describe_pre,IM08,T2,Positive Affordances,Step Verification,5,100
+txt_ai_impact_describe_pre,IM09,T2,Positive Affordances,On-Demand Accessibility,9,100
+txt_ai_impact_describe_pre,IM10,T2,Negative Hindrances,Cognitive Reliance,14,100
+txt_ai_impact_describe_pre,IM11,T2,Negative Hindrances,Technical Failure,5,100
+txt_ai_impact_describe_pre,IM12,T2,Negative Hindrances,Pedagogical Misalignment,2,100
+txt_ai_impact_describe_pre,IM13,T2,Conditional Use,Method-Dependent,9,100
+txt_ai_impact_describe_pre,IM15,T2,Positive Affordances,Affective / Confidence Support,0,100
+txt_ai_impact_describe_pre,IM14,T2,Emergent,Other / Idiosyncratic,9,100
+txt_ai_impact_describe_post,IM01,T1,Overall Sentiment,Positive Impact,58,99
+txt_ai_impact_describe_post,IM02,T1,Overall Sentiment,Negative Impact,4,99
+txt_ai_impact_describe_post,IM03,T1,Overall Sentiment,Mixed Impact,16,99
+txt_ai_impact_describe_post,IM04,T1,Overall Sentiment,Neutral / No Impact,17,99
+txt_ai_impact_describe_post,IM05,T1,Not Applicable,Does Not Use AI,3,99
+txt_ai_impact_describe_post,IM06,T1,Uncodable,Irrelevant / Noise,1,99
+txt_ai_impact_describe_post,IM07,T2,Positive Affordances,Concept Clarification,43,99
+txt_ai_impact_describe_post,IM08,T2,Positive Affordances,Step Verification,5,99
+txt_ai_impact_describe_post,IM09,T2,Positive Affordances,On-Demand Accessibility,19,99
+txt_ai_impact_describe_post,IM10,T2,Negative Hindrances,Cognitive Reliance,10,99
+txt_ai_impact_describe_post,IM11,T2,Negative Hindrances,Technical Failure,9,99
+txt_ai_impact_describe_post,IM12,T2,Negative Hindrances,Pedagogical Misalignment,6,99
+txt_ai_impact_describe_post,IM13,T2,Conditional Use,Method-Dependent,4,99
+txt_ai_impact_describe_post,IM15,T2,Positive Affordances,Affective / Confidence Support,1,99
+txt_ai_impact_describe_post,IM14,T2,Emergent,Other / Idiosyncratic,3,99

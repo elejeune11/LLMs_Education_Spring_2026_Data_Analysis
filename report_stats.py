@@ -115,11 +115,12 @@ def main():
         for cid in code_ids:
             mat = np.array([[int(cid in pivot.loc[q, m]) for m in col_models]
                             for q in pivot.index])
-            if mat.sum() == 0:
-                continue
+            # Codes no first-pass model applied are still listed (zero
+            # prevalence, no kappa) so the table covers every codebook code.
             prev = {m: mat[:, i].mean() for i, m in enumerate(col_models)}
             mean_prev = float(np.mean(list(prev.values())))
-            kappa = fleiss_kappa_binary(mat) if len(col_models) >= 2 else np.nan
+            kappa = (fleiss_kappa_binary(mat)
+                     if len(col_models) >= 2 and mat.sum() > 0 else np.nan)
             pct = np.mean([np.mean(mat[:, i] == mat[:, j])
                            for i, j in itertools.combinations(range(len(col_models)), 2)])
             reportable = mean_prev >= args.min_prev
@@ -197,7 +198,8 @@ def main():
         "across models; Final = prevalence in the adjudicated coding; "
         "$\\kappa$ = Fleiss' $\\kappa$ (shown when prevalence $\\geq$ "
         + f"{args.min_prev:.0%}".replace("%", "\\%")
-        + "); Agr.\\ = mean pairwise percent agreement.}",
+        + " before rounding); Agr.\\ = mean pairwise percent agreement. "
+        "Every codebook code is listed, including codes no model applied.}",
         "\\label{tab:llm_reliability_by_code}",
         "\\begin{tabular}{llrrrr}", "\\toprule",
         "Question & Code & Prev. & Final & $\\kappa$ & Agr. \\\\", "\\midrule",

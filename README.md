@@ -253,6 +253,13 @@ python manuscript_plots.py
 Writes all thirteen figure PDFs to `figures/`. `DATA_PATH` resolves through
 `load_research_data.data_path`, so no editing is needed if the data sits in `data/`.
 
+Two companion scripts write the matched-sample figure and machine-readable counts:
+
+```bash
+python plot_paired_change.py     # figures/paired_change_matched.pdf + report/paired_*.csv
+python export_figure_counts.py   # report/figure_counts/*.csv, the counts behind every figure
+```
+
 The timeline figure is separate:
 
 ```bash

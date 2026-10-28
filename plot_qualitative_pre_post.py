@@ -16,6 +16,7 @@ export_for_plots.py produces these. Colours/fonts from plot_style.py.
 
 import matplotlib.pyplot as plt
 import matplotlib.patches as mpatches
+from matplotlib.legend_handler import HandlerTuple
 
 from load_qualitative import load_qualitative
 from plot_style import (
@@ -129,14 +130,16 @@ def plot_qualitative_pre_post(
     ax.set_title(title, fontsize=FONT_SIZES["title"], fontweight="bold",
                  loc="left", pad=10)
 
-    handles = [
-        mpatches.Patch(color=COLOUR_PRE, label=f"Pre (n={n_pre})"),
-        mpatches.Patch(facecolor="white", edgecolor="#666666",
-                       label=f"Post (n={n_post}) — category color"),
-    ]
-    ax.legend(handles=handles, loc="lower right",
+    # Post bars take their category's colour, so the Post swatch is a strip
+    # of the category colours rather than a single patch.
+    post_swatch = tuple(mpatches.Patch(color=cat_colors.get(c, "#888888"))
+                        for c in categories)
+    ax.legend(handles=[mpatches.Patch(color=COLOUR_PRE), post_swatch],
+              labels=[f"Pre (n={n_pre})", f"Post (n={n_post})"],
+              handler_map={tuple: HandlerTuple(ndivide=None, pad=0)},
+              loc="lower right",
               fontsize=FONT_SIZES["legend"] - 1, frameon=False,
-              handlelength=1.2, handletextpad=0.5, title="Timepoint",
+              handlelength=2.4, handletextpad=0.5, title="Timepoint",
               title_fontsize=FONT_SIZES["legend"] - 1)
 
     fig.tight_layout()

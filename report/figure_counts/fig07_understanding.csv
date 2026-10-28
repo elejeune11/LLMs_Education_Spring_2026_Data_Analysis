@@ -1,0 +1,41 @@
+item,timepoint,response,count,n_took_survey
+understand_apply_principles,pre,Strongly Disagree,3,100
+understand_apply_principles,pre,Disagree,4,100
+understand_apply_principles,pre,Neither Agree nor Disagree,27,100
+understand_apply_principles,pre,Agree,50,100
+understand_apply_principles,pre,Strongly Agree,16,100
+understand_apply_principles,post,Strongly Disagree,1,98
+understand_apply_principles,post,Disagree,7,98
+understand_apply_principles,post,Neither Agree nor Disagree,12,98
+understand_apply_principles,post,Agree,52,98
+understand_apply_principles,post,Strongly Agree,26,98
+understand_identify_mistakes,pre,Strongly Disagree,0,100
+understand_identify_mistakes,pre,Disagree,9,100
+understand_identify_mistakes,pre,Neither Agree nor Disagree,21,100
+understand_identify_mistakes,pre,Agree,58,100
+understand_identify_mistakes,pre,Strongly Agree,12,100
+understand_identify_mistakes,post,Strongly Disagree,1,98
+understand_identify_mistakes,post,Disagree,7,98
+understand_identify_mistakes,post,Neither Agree nor Disagree,16,98
+understand_identify_mistakes,post,Agree,59,98
+understand_identify_mistakes,post,Strongly Agree,15,98
+understand_until_practice,pre,Strongly Disagree,2,100
+understand_until_practice,pre,Disagree,13,100
+understand_until_practice,pre,Neither Agree nor Disagree,17,100
+understand_until_practice,pre,Agree,57,100
+understand_until_practice,pre,Strongly Agree,11,100
+understand_until_practice,post,Strongly Disagree,2,98
+understand_until_practice,post,Disagree,12,98
+understand_until_practice,post,Neither Agree nor Disagree,17,98
+understand_until_practice,post,Agree,46,98
+understand_until_practice,post,Strongly Agree,21,98
+understand_exams_reflect,pre,Strongly Disagree,4,100
+understand_exams_reflect,pre,Disagree,15,100
+understand_exams_reflect,pre,Neither Agree nor Disagree,34,100
+understand_exams_reflect,pre,Agree,38,100
+understand_exams_reflect,pre,Strongly Agree,9,100
+understand_exams_reflect,post,Strongly Disagree,6,98
+understand_exams_reflect,post,Disagree,23,98
+understand_exams_reflect,post,Neither Agree nor Disagree,18,98
+understand_exams_reflect,post,Agree,38,98
+understand_exams_reflect,post,Strongly Agree,13,98

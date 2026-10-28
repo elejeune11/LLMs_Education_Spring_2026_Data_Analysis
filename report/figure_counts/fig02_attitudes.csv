@@ -1,0 +1,85 @@
+item,timepoint,response,count,n_took_survey
+ai_useful_coursework,pre,Strongly Disagree,1,100
+ai_useful_coursework,pre,Disagree,2,100
+ai_useful_coursework,pre,Neither Agree nor Disagree,6,100
+ai_useful_coursework,pre,Agree,46,100
+ai_useful_coursework,pre,Strongly Agree,41,100
+ai_useful_coursework,pre,Not Applicable,4,100
+ai_useful_coursework,post,Strongly Disagree,1,98
+ai_useful_coursework,post,Disagree,1,98
+ai_useful_coursework,post,Neither Agree nor Disagree,10,98
+ai_useful_coursework,post,Agree,37,98
+ai_useful_coursework,post,Strongly Agree,48,98
+ai_useful_coursework,post,Not Applicable,1,98
+ai_helped_understand_engmech,pre,Strongly Disagree,2,100
+ai_helped_understand_engmech,pre,Disagree,4,100
+ai_helped_understand_engmech,pre,Neither Agree nor Disagree,28,100
+ai_helped_understand_engmech,pre,Agree,33,100
+ai_helped_understand_engmech,pre,Strongly Agree,17,100
+ai_helped_understand_engmech,pre,Not Applicable,16,100
+ai_helped_understand_engmech,post,Strongly Disagree,7,98
+ai_helped_understand_engmech,post,Disagree,11,98
+ai_helped_understand_engmech,post,Neither Agree nor Disagree,17,98
+ai_helped_understand_engmech,post,Agree,37,98
+ai_helped_understand_engmech,post,Strongly Agree,24,98
+ai_helped_understand_engmech,post,Not Applicable,2,98
+ai_more_confusing,pre,Strongly Disagree,10,100
+ai_more_confusing,pre,Disagree,29,100
+ai_more_confusing,pre,Neither Agree nor Disagree,33,100
+ai_more_confusing,pre,Agree,9,100
+ai_more_confusing,pre,Strongly Agree,2,100
+ai_more_confusing,pre,Not Applicable,17,100
+ai_more_confusing,post,Strongly Disagree,11,98
+ai_more_confusing,post,Disagree,26,98
+ai_more_confusing,post,Neither Agree nor Disagree,25,98
+ai_more_confusing,post,Agree,19,98
+ai_more_confusing,post,Strongly Agree,12,98
+ai_more_confusing,post,Not Applicable,5,98
+ai_can_evaluate_correctness,pre,Strongly Disagree,1,100
+ai_can_evaluate_correctness,pre,Disagree,3,100
+ai_can_evaluate_correctness,pre,Neither Agree nor Disagree,15,100
+ai_can_evaluate_correctness,pre,Agree,48,100
+ai_can_evaluate_correctness,pre,Strongly Agree,18,100
+ai_can_evaluate_correctness,pre,Not Applicable,15,100
+ai_can_evaluate_correctness,post,Strongly Disagree,1,98
+ai_can_evaluate_correctness,post,Disagree,3,98
+ai_can_evaluate_correctness,post,Neither Agree nor Disagree,11,98
+ai_can_evaluate_correctness,post,Agree,49,98
+ai_can_evaluate_correctness,post,Strongly Agree,30,98
+ai_can_evaluate_correctness,post,Not Applicable,4,98
+ai_accuracy_concerns,pre,Strongly Disagree,2,100
+ai_accuracy_concerns,pre,Disagree,2,100
+ai_accuracy_concerns,pre,Neither Agree nor Disagree,15,100
+ai_accuracy_concerns,pre,Agree,36,100
+ai_accuracy_concerns,pre,Strongly Agree,36,100
+ai_accuracy_concerns,pre,Not Applicable,9,100
+ai_accuracy_concerns,post,Strongly Disagree,2,98
+ai_accuracy_concerns,post,Disagree,12,98
+ai_accuracy_concerns,post,Neither Agree nor Disagree,14,98
+ai_accuracy_concerns,post,Agree,32,98
+ai_accuracy_concerns,post,Strongly Agree,30,98
+ai_accuracy_concerns,post,Not Applicable,8,98
+ai_vs_textbooks,pre,Strongly Disagree,7,100
+ai_vs_textbooks,pre,Disagree,16,100
+ai_vs_textbooks,pre,Neither Agree nor Disagree,26,100
+ai_vs_textbooks,pre,Agree,33,100
+ai_vs_textbooks,pre,Strongly Agree,14,100
+ai_vs_textbooks,pre,Not Applicable,4,100
+ai_vs_textbooks,post,Strongly Disagree,8,98
+ai_vs_textbooks,post,Disagree,13,98
+ai_vs_textbooks,post,Neither Agree nor Disagree,30,98
+ai_vs_textbooks,post,Agree,26,98
+ai_vs_textbooks,post,Strongly Agree,17,98
+ai_vs_textbooks,post,Not Applicable,4,98
+ai_vs_discussion,pre,Strongly Disagree,11,100
+ai_vs_discussion,pre,Disagree,34,100
+ai_vs_discussion,pre,Neither Agree nor Disagree,18,100
+ai_vs_discussion,pre,Agree,19,100
+ai_vs_discussion,pre,Strongly Agree,4,100
+ai_vs_discussion,pre,Not Applicable,14,100
+ai_vs_discussion,post,Strongly Disagree,7,98
+ai_vs_discussion,post,Disagree,19,98
+ai_vs_discussion,post,Neither Agree nor Disagree,28,98
+ai_vs_discussion,post,Agree,12,98
+ai_vs_discussion,post,Strongly Agree,14,98
+ai_vs_discussion,post,Not Applicable,18,98
